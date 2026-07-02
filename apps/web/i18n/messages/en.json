@@ -1,0 +1,1188 @@
+{
+  "metadata": {
+    "title": "Firefly Network — Lights in the Dark",
+    "description": "A surveillance-resistant network for collective intelligence, where verified humans share, corroborate, and build understanding without exposing their identities."
+  },
+  "nav": {
+    "stories": "Stories",
+    "helpNeeded": "Help Needed",
+    "about": "About",
+    "home": "Firefly Network home",
+    "brandName": "FIREFLY NETWORK"
+  },
+  "footer": {
+    "builtOn": "Built on Polkadot",
+    "tagline": "Lights in the dark."
+  },
+  "home": {
+    "hero": {
+      "title": "Lights in the Dark",
+      "subtitle": "A surveillance-resistant network for collective intelligence. Where verified humans share, corroborate, and build understanding — without exposing their identities."
+    },
+    "cta": {
+      "howItWorks": "How does this work?"
+    },
+    "preview": {
+      "title": "Recent Posts"
+    },
+    "whatIs": {
+      "title": "What is the Firefly Network?",
+      "p1": "In the Caribbean, indigenous peoples used cocuyos — bioluminescent beetles — as natural lamps to guide them through the dark. No single cocuyo illuminates a path. But millions of tiny sparks, together, can light an entire nation.",
+      "p2": "The Firefly Network is not a social media platform. It is a collective intelligence network where every participant is both sensor and analyst, where information spreads through corroboration rather than amplification, and where the value of a contribution is determined by the cryptographic weight of human verification — not algorithms or engagement metrics.",
+      "p3": "Here, you are not a user. You are a firefly — a verified human being contributing light to the collective understanding."
+    },
+    "howItWorks": {
+      "title": "How It Works",
+      "illuminate": {
+        "title": "Illuminate",
+        "description": "Share what you observe. A post is an observation, a piece of evidence, a data point. Each post is signed by your anonymous credential, proving a verified human created it."
+      },
+      "corroborate": {
+        "title": "Corroborate",
+        "description": "Verify what others share. Corroboration is not a like — it's a reputation-staked act. When you corroborate, you're putting your accumulated reputation behind your assessment."
+      },
+      "connect": {
+        "title": "Connect",
+        "description": "Posts link into story chains — emergent structures that form as fireflies connect their observations. The chain becomes stronger than any individual post through distributed verification."
+      }
+    },
+    "whatIsNot": {
+      "title": "What This Is Not",
+      "noFollowers": "No follower counts. No profiles. No celebrities. Fireflies are anonymous.",
+      "noScroll": "No infinite scroll. No algorithmic feed. No engagement optimization.",
+      "noLikes": "No likes, reactions, or shares. Information spreads through corroboration, not amplification.",
+      "noTracking": "No data collection. No tracking. No surveillance. We don't collect what we can't be forced to reveal."
+    },
+    "polkadot": {
+      "title": "Built on Polkadot",
+      "description": "The Firefly Network is built on and for the Polkadot ecosystem — leveraging decentralized identity, censorship-resistant storage, and cross-chain interoperability. No single point of failure. No single point of control.",
+      "learnMore": "Learn more about Polkadot"
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "About the Network",
+      "subtitle": "Millions of tiny sparks can illuminate an entire nation."
+    },
+    "fireflyPrinciple": {
+      "title": "The Firefly Principle",
+      "p1": "In the Caribbean, indigenous peoples used cocuyos — bioluminescent beetles — as natural lamps to guide them through the dark. A single cocuyo casts barely enough light to see your own hand. But gather them together, and they become something more.",
+      "p2": "This is the principle behind the Firefly Network: no single observer sees the whole picture. But when verified humans share what they observe, corroborate what others see, and connect their posts into chains of evidence — the darkness begins to lift.",
+      "p3": "We are inspired by Efecto Cocuyo, a Venezuelan independent media platform founded in 2015 by journalists who refused to let government censorship silence the truth. They proved that community-driven journalism could survive and thrive even under authoritarian conditions. The firefly image resonated because it speaks to something universal: small lights that together illuminate the darkness."
+    },
+    "howItWorks": {
+      "title": "How It Works",
+      "posts": {
+        "title": "Posts",
+        "description": "A post is an observation, a piece of evidence, a witness account, a data point. When you illuminate a post, you're contributing a discrete piece of information — signed by your anonymous credential, tagged with optional context (topic, location, timeframe), and ready to connect with other posts."
+      },
+      "corroboration": {
+        "title": "Corroboration",
+        "description": "Corroboration is not a like. It's a reputation-staked act of verification. When you corroborate a post, you're making a specific claim: \"I can independently confirm this,\" or \"I have additional evidence,\" or \"This is consistent with my expertise.\" Your corroboration is recorded permanently, weighted by your reputation in the relevant domain. If the post is later debunked, your reputation diminishes."
+      },
+      "storyChains": {
+        "title": "Story Chains",
+        "description": "Story chains are emergent structures. No one \"creates\" a chain — chains crystallize as fireflies link their posts to related observations. A chain about water quality might start with one person noticing a smell, grow as others corroborate and add photos, and strengthen as someone contributes public records about permits. The chain becomes more than the sum of its posts."
+      },
+      "verificationTrails": {
+        "title": "Verification Trails",
+        "description": "Every chain carries a transparent verification trail — the complete history of posts, corroborations, challenges, and evidence. You don't need to trust us to tell you something is verified. You can trace the trail yourself and see exactly how many independent humans, with what reputation, made what claims."
+      },
+      "campaigns": {
+        "title": "Campaigns",
+        "description": "Campaigns are sponsored fact-checking efforts. News outlets, collectives, or community members fund a request for specific information — and fireflies who contribute valuable evidence earn a share of the reward. The funds are held in escrow until deliverables are met. Payments can be public (pUSD) or private (Coinage) to protect contributor identity. This creates a functioning market for investigative journalism."
+      }
+    },
+    "surveillanceResistance": {
+      "title": "Surveillance Resistance",
+      "intro": "The network is designed so that no single point of compromise — no server seizure, no subpoena, no insider threat — can expose the identity of any firefly or remove any post from the network.",
+      "noUserDatabase": "No user database. DIM credentials are generated through proof-of-personhood and held by you. There is no central registry of participants.",
+      "noContentServer": "No content server. Posts are stored on decentralized infrastructure. There is no single server to seize.",
+      "noMetadata": "No metadata collection. We don't log IP addresses, device fingerprints, or access patterns.",
+      "noCookies": "No cookies. None. Zero. We don't collect what we can't be forced to reveal."
+    },
+    "builtOnPolkadot": {
+      "title": "Built on Polkadot",
+      "intro": "The Firefly Network is built on and for the Polkadot ecosystem. We chose Polkadot because its values align with ours: decentralization, interoperability, and user sovereignty."
+    },
+    "openSource": {
+      "title": "Open Source",
+      "description": "All code is open source. All governance is public. All verification trails are auditable. Transparency is not optional — it's foundational.",
+      "viewOnGitHub": "View on GitHub"
+    }
+  },
+  "explore": {
+    "breadcrumbExplore": "Explore",
+    "breadcrumbHome": "Home",
+    "chainEyebrow": "Story chain",
+    "clearSearch": "Clear search",
+    "corroborations": "corroborations",
+    "emptyAction": "Light a signal",
+    "emptySearchDesc": "Try another topic or clear the search to see more of the network.",
+    "emptySearchTitle": "Nothing matches your search",
+    "emptyTopicDesc": "Be the first to illuminate this corner of the network. Raise an observation and let other fireflies corroborate it.",
+    "emptyTopicTitle": "Nothing here yet",
+    "eyebrow": "Collective intelligence · Live",
+    "heading": "Explore the network",
+    "railCollectives": "Active collectives",
+    "railIlluminateCta": "Illuminate a signal",
+    "railNoVanityBody": "Signals rise through corroboration from verified humans — not clicks. That's the whole point.",
+    "railNoVanityInfoBody": "The Firefly Network ranks information by the cryptographic weight of human corroboration, not by popularity. There are no likes, no follower counts, and no engagement metrics to game.",
+    "railNoVanityInfoTitle": "Why no likes or follower counts?",
+    "railNoVanityTitle": "No vanity metrics here",
+    "railTrending": "Trending chains",
+    "searchPlaceholder": "Search signals, claims, and chains…",
+    "sortAwaiting": "Awaiting verification",
+    "sortCorroborated": "Most corroborated",
+    "sortLabel": "Sort",
+    "sortRecent": "Most recent",
+    "statChains": "Story chains",
+    "statClaims": "Verified claims",
+    "statCollectives": "Collectives",
+    "statSignals": "Live signals",
+    "subheading": "Browse signals, claims, and story chains across the network. Ranked by corroboration weight — never popularity.",
+    "tabChains": "Story chains",
+    "tabClaims": "Claims",
+    "tabSignals": "Signals",
+    "topicAll": "All",
+    "topicsLabel": "Topics",
+    "typeChains": "story chains",
+    "typeClaims": "claims",
+    "typeSignals": "signals",
+    "updated": "updated",
+    "verifications": "verifications",
+    "claimsErrorTitle": "Couldn't load claims",
+    "claimsErrorDesc": "Something went wrong loading claims. Please try again in a moment."
+  },
+  "chain": {
+    "backToStories": "Stories",
+    "storyChain": "Story",
+    "verificationSummary": "Verification Summary",
+    "posts": "Posts",
+    "corroborations": "Corroborations",
+    "challenges": "Challenges",
+    "contributors": "Contributors",
+    "weight": "Weight",
+    "chainStarted": "Story started",
+    "addPostCta": "Have information to add to this story?",
+    "verificationTrail": "Verification Trail",
+    "noPosts": "No posts in this story yet.",
+    "beFirstToIlluminate": "Be the First to Illuminate",
+    "tabs": {
+      "whatsHappening": "What's Happening",
+      "deepDives": "Deep Dives",
+      "helpNeeded": "Help Needed"
+    },
+    "whatsHappening": {
+      "title": "Latest Posts",
+      "description": "Ground-truth observations from the network",
+      "noPosts": "No posts yet. Be the first to illuminate."
+    },
+    "deepDives": {
+      "title": "Analysis & Reports",
+      "description": "In-depth investigations and context",
+      "noPosts": "No analysis posts yet for this story."
+    },
+    "helpNeeded": {
+      "title": "Open Campaigns",
+      "description": "Sponsored fact-checking efforts",
+      "noCampaigns": "No open campaigns for this story.",
+      "createCampaign": "Fund a Campaign"
+    }
+  },
+  "feed": {
+    "title": "Your Feed",
+    "following": "Following",
+    "discover": "Discover",
+    "setupPrompt": "Complete your profile setup to see posts from topics you follow.",
+    "completeSetup": "Complete Setup",
+    "noMatchingPosts": "No posts match your followed topics yet.",
+    "tryFollowingMore": "Try following more topics in your profile settings.",
+    "noPostsYet": "No posts yet. Be the first to illuminate."
+  },
+  "verify": {
+    "title": "Verify Your Identity",
+    "subtitle": "Complete DIM verification to unlock full participation in the Firefly Network. Anonymous but human — we verify you're real without revealing who you are.",
+    "steps": {
+      "eligibility": "Eligibility",
+      "sign": "Sign",
+      "pending": "Pending",
+      "success": "Success"
+    },
+    "eligibility": {
+      "title": "Check Eligibility",
+      "description": "We're checking if your account is ready for verification.",
+      "checking": "Checking eligibility...",
+      "eligible": "You're eligible for verification",
+      "notEligible": "Not eligible for verification",
+      "alreadyVerified": "Already Verified",
+      "reason": "Reason"
+    },
+    "sign": {
+      "title": "Sign Verification Message",
+      "description": "Sign a message with your wallet to prove ownership of your account. This does not transfer any funds.",
+      "message": "Message to Sign",
+      "button": "Sign Message",
+      "pending": "Signing...",
+      "unavailableTitle": "Verification isn't available yet",
+      "unavailableDescription": "Your wallet signed the verification message successfully, but on-chain personhood can't be completed yet. Completing it needs the attestation verifier service — an account authorized to register you on the People chain — which isn't connected in this environment.",
+      "signatureCaptured": "Signature captured"
+    },
+    "pending": {
+      "title": "Verification In Progress",
+      "description": "Your verification is being processed on-chain. This may take a few moments.",
+      "waiting": "Waiting for confirmation",
+      "note": "This page will automatically update when your verification is complete. You can safely close this page and check back later."
+    },
+    "success": {
+      "title": "Verification Complete",
+      "description": "Congratulations! You are now a verified firefly. Your anonymous credential proves you're human without revealing who you are.",
+      "level": "Verification Level",
+      "capabilities": "Unlocked Capabilities",
+      "goToDashboard": "Go to Dashboard",
+      "explore": "Explore Posts"
+    },
+    "capabilities": {
+      "illuminate": "Illuminate posts",
+      "corroborate": "Corroborate observations",
+      "challenge": "Challenge claims",
+      "fundBounty": "Fund bounties",
+      "claimPayout": "Claim payouts",
+      "receiveCoinage": "Receive private payments"
+    },
+    "nav": {
+      "back": "Back",
+      "next": "Continue",
+      "cancel": "Cancel"
+    },
+    "errors": {
+      "walletNotConnected": "Please connect your wallet to continue.",
+      "signingFailed": "Failed to sign message. Please try again.",
+      "attestationFailed": "Verification failed. Please try again later.",
+      "unknown": "An unexpected error occurred."
+    },
+    "whatIs": {
+      "title": "What is DIM Verification?",
+      "description": "DIM (Decentralized Identity Mechanism) is a privacy-preserving proof-of-personhood system. It verifies you're a real human being without collecting or revealing any personal information.",
+      "benefit1": "Prove you're human without revealing your identity",
+      "benefit2": "Unlock full participation in the network",
+      "benefit3": "Build reputation that's tied to you, not your name",
+      "privacy": "Your verification is stored on-chain using ring VRF cryptography. This means your identity can never be linked to your activities, even by us. You remain anonymous while being provably human."
+    }
+  },
+  "collectives": {
+    "title": "Collectives",
+    "description": "Fact-checking groups that verify posts collaboratively",
+    "createCollective": "Create Collective",
+    "members": "members",
+    "verifications": "verifications",
+    "reputation": "reputation",
+    "backToExplore": "Back to Explore",
+    "collective": "Collective",
+    "notFoundTitle": "Collective Not Found",
+    "notFoundBody": "This collective doesn’t exist or hasn’t been created yet.",
+    "exploreCta": "Explore Stories",
+    "reputationTitle": "Reputation",
+    "reputationScore": "Score",
+    "accuracyRate": "Accuracy",
+    "verificationsLabel": "Verifications",
+    "avgResponseTime": "Avg. response",
+    "membersLabel": "Members",
+    "hours": "hours",
+    "founded": "Founded",
+    "lastActive": "Last active",
+    "governance": "Governance",
+    "minVotesForVerdict": "Votes to finalize",
+    "verdictThreshold": "Agreement needed",
+    "membership": "Membership",
+    "membershipOpen": "Open to all",
+    "membershipVote": "By member vote",
+    "membershipInvite": "Invite only"
+  },
+  "common": {
+    "loading": "Loading...",
+    "justNow": "just now",
+    "minutesAgo": "{count}m ago",
+    "hoursAgo": "{count}h ago",
+    "daysAgo": "{count}d ago",
+    "weeksAgo": "{count}w ago",
+    "comingSoon": "Coming Soon"
+  },
+  "actions": {
+    "illuminate": "Illuminate",
+    "corroborate": "Corroborate",
+    "challenge": "Challenge",
+    "earn": "Earn"
+  },
+  "status": {
+    "active": "active",
+    "established": "established",
+    "emerging": "emerging",
+    "contested": "contested",
+    "pending": "pending",
+    "inReview": "in review"
+  },
+  "campaigns": {
+    "title": "Campaigns",
+    "description": "Sponsored fact-checking efforts. Contribute evidence to earn rewards.",
+    "createButton": "Create Campaign",
+    "allCampaigns": "All",
+    "filters": "Filters",
+    "status": "Status",
+    "statusActive": "Active",
+    "statusCompleted": "Completed",
+    "statusExpired": "Expired",
+    "statusCancelled": "Cancelled",
+    "campaignWord": "campaign",
+    "campaignsWord": "campaigns",
+    "ofWord": "of",
+    "clearFilters": "Clear filters",
+    "statusLabel": "Status",
+    "filterByTopic": "Filter by Topic",
+    "searchPlaceholder": "Search campaigns...",
+    "topicSelected": "topic",
+    "topicsSelected": "topics",
+    "topics": {
+      "label": "Topics",
+      "crisis": "Crisis",
+      "detention": "Detention",
+      "disinformation": "Disinformation",
+      "documentation": "Documentation",
+      "economy": "Economy",
+      "finance": "Finance",
+      "food-security": "Food Security",
+      "governance": "Governance",
+      "health": "Health",
+      "human-rights": "Human Rights",
+      "inflation": "Inflation",
+      "infrastructure": "Infrastructure",
+      "media": "Media",
+      "politics": "Politics",
+      "press-freedom": "Press Freedom",
+      "public-records": "Public Records",
+      "public-services": "Public Services",
+      "transparency": "Transparency",
+      "venezuela": "Venezuela"
+    },
+    "info": {
+      "title": "What are Campaigns?",
+      "body": "Campaigns are sponsored fact-checking efforts funded by news outlets, collectives, or community members. When you have evidence that supports a campaign, illuminate a post and link it.\n\nIf your post contributes valuable information, you earn a share of the campaign reward. Payments can be made publicly via pUSD or privately via Coinage.\n\nCampaigns create a functioning market for investigative journalism — funded by those who need verified information."
+    },
+    "createButton": "Create Campaign"
+  },
+  "campaign": {
+    "breadcrumb": {
+      "campaigns": "Campaigns",
+      "detail": "Campaign Details"
+    },
+    "funding": "Funding",
+    "payoutMode": "Payout Mode",
+    "expires": "Expires",
+    "expired": "Expired",
+    "expiresSoon": "Expires soon",
+    "hoursLeftSuffix": "h left",
+    "dayLeft": "1 day left",
+    "daysLeftSuffix": "days left",
+    "contributingPosts": "Contributing Posts",
+    "noPostsYet": "No posts have contributed to this campaign yet.",
+    "postWord": "post",
+    "postsWord": "posts",
+    "illuminate": "Illuminate",
+    "completed": "This campaign has been completed",
+    "cancelled": "This campaign was cancelled",
+    "topics": "Topics",
+    "location": "Location",
+    "description": "What we're looking for",
+    "paymentPublic": "Public pUSD",
+    "paymentPrivate": "Private",
+    "whatsThis": "What's this?",
+    "posted": "Posted",
+    "sponsor": "Sponsor",
+    "deliverables": "Deliverables",
+    "progress": "Progress",
+    "deliverableTypes": {
+      "evidence_gathered": "Evidence Gathered",
+      "sources_verified": "Sources Verified",
+      "verdict_issued": "Verdict Issued",
+      "story_published": "Story Published"
+    }
+  },
+  "corroboration": {
+    "modal": {
+      "title": "Corroborate Post",
+      "stakingWarning": "You are staking your reputation on this corroboration.",
+      "noteLabel": "Add a note (optional)",
+      "notePlaceholder": "Explain your corroboration...",
+      "cancel": "Cancel",
+      "submitChallenge": "Submit Challenge",
+      "corroborate": "Corroborate"
+    },
+    "types": {
+      "witness": "Witness",
+      "witnessDesc": "I can independently confirm this observation.",
+      "evidence": "Evidence",
+      "evidenceDesc": "I have additional documentation that supports this.",
+      "expertise": "Expertise",
+      "expertiseDesc": "This is consistent with my knowledge in this domain.",
+      "challenge": "Challenge",
+      "challengeDesc": "I have reason to believe this is inaccurate."
+    },
+    "referencedLinks": "Referenced links:",
+    "source": "Source",
+    "evidence": "Evidence"
+  },
+  "post": {
+    "topics": "Topics:",
+    "location": "Location:",
+    "illuminated": "Illuminated:",
+    "corroborations": "Corroborations",
+    "witnesses": "Witnesses",
+    "evidence": "Evidence",
+    "expert": "Expert",
+    "challenges": "Challenges",
+    "totalWeight": "Total weight:",
+    "partOfChains": "Part of Story Chains",
+    "addCorroboration": "Add Corroboration",
+    "submitChallenge": "Submit Challenge",
+    "typeLabel": "Type",
+    "noteOptional": "Note (optional)",
+    "reasonForChallenge": "Reason for challenge",
+    "notePlaceholder": "Add context or details...",
+    "challengePlaceholder": "Explain why this is inaccurate...",
+    "setupRequired": "Complete your profile setup to {action} posts."
+  },
+  "posts": {
+    "title": "Posts",
+    "description": "Observations, evidence, and investigations from the network.",
+    "allPosts": "All",
+    "filterByTopic": "Filter by Topic",
+    "searchPlaceholder": "Search posts...",
+    "topicSelected": "topic",
+    "topicsSelected": "topics",
+    "postWord": "post",
+    "postsWord": "posts",
+    "ofWord": "of",
+    "clearFilters": "Clear filters",
+    "corroborationWord": "corroboration",
+    "corroborationsWord": "corroborations",
+    "challengeWord": "challenge",
+    "challengesWord": "challenges",
+    "readMore": "Read more",
+    "backToPosts": "Back to Posts",
+    "sources": "Sources",
+    "relatedPosts": "Related Posts",
+    "corroborate": "Corroborate",
+    "dispute": "Dispute",
+    "viewTrust": "View Trust",
+    "addToStory": "Add to Story",
+    "extractClaim": "Extract Claim",
+    "extracting": "Extracting...",
+    "viewDetails": "View details",
+    "topics": {
+      "crisis": "Crisis",
+      "daily-life": "Daily Life",
+      "data": "Data",
+      "disinformation": "Disinformation",
+      "economy": "Economy",
+      "food-security": "Food Security",
+      "governance": "Governance",
+      "health": "Health",
+      "inflation": "Inflation",
+      "infrastructure": "Infrastructure",
+      "media": "Media",
+      "medication": "Medication",
+      "politics": "Politics",
+      "social-media": "Social Media",
+      "transparency": "Transparency",
+      "venezuela": "Venezuela",
+      "wages": "Wages"
+    }
+  },
+  "claims": {
+    "title": "Claims",
+    "description": "Verifiable claims extracted from community posts.",
+    "extractedClaims": "Extracted Claims",
+    "supporting": "supporting",
+    "contradicting": "contradicting",
+    "evidence": "evidence",
+    "viewClaim": "View claim",
+    "backToPost": "Back to Post",
+    "statusPending": "Pending",
+    "statusUnderReview": "Under Review",
+    "statusVerified": "Verified",
+    "statusDisputed": "Disputed",
+    "statusFalse": "False",
+    "statusUnverifiable": "Unverifiable",
+    "verdict": "Verdict",
+    "issuedOn": "Issued on",
+    "extractedFrom": "Extracted from",
+    "supportingEvidence": "Supporting Evidence",
+    "contradictingEvidence": "Contradicting Evidence",
+    "noSupportingEvidence": "No supporting evidence submitted yet.",
+    "noContradictingEvidence": "No contradicting evidence submitted.",
+    "extractClaim": "Extract a Claim",
+    "extracting": "Extracting...",
+    "claimExtracted": "Claim extracted successfully!",
+    "noClaimFound": "No verifiable claim found in this post",
+    "extractionFailed": "AI extraction failed. Please try again.",
+    "extractionUnavailable": "Claim extraction isn't available in this deployment.",
+    "claimSaveFailed": "Couldn't save the claim on-chain. Please try again.",
+    "extractedClaimTitle": "Extracted Claim",
+    "extractedClaimSaved": "Saved on-chain.",
+    "close": "Close",
+    "submitEvidence": "Submit Evidence",
+    "signInToSubmit": "Sign in to submit evidence",
+    "evidenceSubmitted": "Evidence submitted successfully!",
+    "supportThisClaim": "Support this claim",
+    "contradictThisClaim": "Contradict this claim",
+    "collectiveVerification": "Collective Verification",
+    "noActiveProposals": "No active proposals for this claim",
+    "createProposal": "New Proposal",
+    "castYourVote": "Cast your vote:",
+    "alreadyVoted": "You have already voted on this proposal",
+    "joinCollectiveToVote": "Join a collective to participate in verdict voting",
+    "connectToVote": "Connect your wallet to participate in verdict voting",
+    "loading": "Loading..."
+  },
+  "workbench": {
+    "title": "Verification Workbench",
+    "description": "Review pending claims and submit verdicts. Access requires collective membership.",
+    "allClaims": "All",
+    "filterByTopic": "Filter by Topic",
+    "filterByStatus": "Filter by Status",
+    "searchPlaceholder": "Search claims...",
+    "topicSelected": "topic",
+    "topicsSelected": "topics",
+    "claimWord": "claim",
+    "claimsWord": "claims",
+    "ofWord": "of",
+    "clearFilters": "Clear filters",
+    "noClaims": "No pending claims",
+    "noClaimsDescription": "All claims have been reviewed. Check back later for new submissions.",
+    "accessRequired": "Sign In Required",
+    "accessDescription": "Sign in to access the verification workbench. Collective membership is required to submit verdicts."
+  },
+  "profile": {
+    "title": "Your Profile",
+    "description": "View your topic-weighted reputation and contribution history.",
+    "signInRequired": "Sign In Required",
+    "signInDescription": "Sign in to view your profile and reputation scores.",
+    "reputation": "Reputation",
+    "overallScore": "Overall Score",
+    "topicScores": "Reputation by Topic",
+    "contributions": "Contributions",
+    "posts": "Posts",
+    "corroborations": "Corroborations",
+    "challenges": "Challenges",
+    "noActivity": "No activity yet. Illuminate posts and corroborate to build your reputation.",
+    "loadError": "Failed to load profile",
+    "retry": "Try Again"
+  },
+  "publicProfile": {
+    "title": "Firefly Profile",
+    "backToExplore": "Back to Stories",
+    "memberSince": "Member since",
+    "noCollectives": "Not a member of any collectives",
+    "noPosts": "No posts yet",
+    "posts": "Posts",
+    "corroborations": "Corroborations",
+    "reputation": "Reputation",
+    "collectives": "Collectives",
+    "recentPosts": "Recent Posts",
+    "notFound": "Profile Not Found",
+    "notFoundDescription": "This profile does not exist or has been removed.",
+    "personhood": {
+      "full": "Verified",
+      "lite": "Lite",
+      "none": "Unverified"
+    },
+    "factChecker": {
+      "verified": "Verified Fact-Checker",
+      "suspended": "Suspended"
+    }
+  },
+  "profileEdit": {
+    "editProfile": "Edit Profile",
+    "save": "Save",
+    "saving": "Saving...",
+    "cancel": "Cancel",
+    "pseudonym": "Pseudonym",
+    "pseudonymHint": "Your public display name",
+    "displayName": "Display Name",
+    "displayNameHint": "Optional real name or organization",
+    "location": "Location",
+    "locationHint": "City, region, or general area",
+    "bio": "Bio",
+    "bioHint": "A short description about yourself",
+    "disclosureLevel": "Privacy Level",
+    "anonymous": "Anonymous",
+    "anonymousDesc": "Only your pseudonym is visible",
+    "partial": "Partial",
+    "partialDesc": "Pseudonym and location are visible",
+    "public": "Public",
+    "publicDesc": "Display name, location, and bio are visible",
+    "saved": "Profile saved",
+    "saveFailed": "Failed to save profile",
+    "collectives": "Collectives",
+    "noCollectives": "Not a member of any collectives",
+    "personhood": {
+      "full": "Verified",
+      "lite": "Lite",
+      "none": "Unverified"
+    },
+    "factChecker": {
+      "verified": "Verified Fact-Checker",
+      "suspended": "Suspended"
+    }
+  },
+  "emptyStates": {
+    "posts": {
+      "title": "No posts yet",
+      "description": "No longer-form analysis has been shared yet. Check back soon.",
+      "filtered": {
+        "title": "No matching posts",
+        "description": "No posts match your current filters."
+      }
+    },
+    "campaigns": {
+      "title": "No campaigns yet",
+      "description": "No sponsors have created campaigns yet. Check back soon.",
+      "filtered": {
+        "title": "No matching campaigns",
+        "description": "Try adjusting your filters to find campaigns."
+      }
+    },
+    "chains": {
+      "title": "No stories yet",
+      "description": "Stories emerge when fireflies connect their posts. Be the first to illuminate.",
+      "filtered": {
+        "title": "No matching stories",
+        "description": "No stories match your current filters."
+      }
+    },
+    "claims": {
+      "title": "No claims yet",
+      "description": "No verifiable claims have been extracted yet.",
+      "filtered": {
+        "title": "No matching claims",
+        "description": "No claims match your current filters."
+      }
+    },
+    "workbench": {
+      "title": "No claims to review",
+      "description": "All claims have been processed. Check back later for new submissions."
+    },
+    "profile": {
+      "title": "No contributions yet",
+      "description": "Start illuminating posts and corroborating to build your reputation."
+    },
+    "seedRequired": {
+      "title": "No data loaded",
+      "description": "Run 'pnpm seed:dev' to load development data.",
+      "hint": "This is a development environment."
+    }
+  },
+  "join": {
+    "title": "Join the Firefly Alliance",
+    "subtitle": "Contribute to independent journalism and become part of a collective funding press freedom worldwide.",
+    "steps": {
+      "personhood": "Verify",
+      "amount": "Amount",
+      "confirm": "Confirm"
+    },
+    "personhood": {
+      "title": "Verify Your Identity",
+      "description": "Personhood verification helps ensure one person, one vote in governance decisions. Verification is anonymous — we never see your personal data.",
+      "verified": "Identity Verified",
+      "verify": "Verify with DIM",
+      "skip": "Skip for Now",
+      "skipNote": "You can verify later, but unverified contributors have reduced governance weight."
+    },
+    "amount": {
+      "title": "Choose Your Contribution",
+      "description": "Select how much you'd like to contribute. Your contribution determines your tier and governance weight in the Alliance.",
+      "label": "Contribution Amount",
+      "minimum": "Minimum contribution: $5 pUSD",
+      "custom": "Enter custom amount",
+      "placeholder": "Enter amount"
+    },
+    "confirm": {
+      "title": "Confirm Your Contribution",
+      "description": "Review your contribution details before confirming. This transaction will be recorded on-chain.",
+      "amount": "Amount",
+      "tier": "Tier",
+      "shares": "Estimated Shares",
+      "note": "Shares are calculated at the current pool share price. Actual shares received may vary slightly.",
+      "cooldownWarning": "Withdrawals have a 30-day cooldown period. After requesting a withdrawal, you must wait 30 days before completing it.",
+      "button": "Confirm Contribution",
+      "confirming": "Confirming..."
+    },
+    "tiers": {
+      "none": "No Tier",
+      "spark": "Spark",
+      "flame": "Flame",
+      "beacon": "Beacon",
+      "lighthouse": "Lighthouse",
+      "sparkDesc": "Entry-level supporter. Basic governance participation.",
+      "flameDesc": "Active contributor. Enhanced governance weight.",
+      "beaconDesc": "Significant supporter. Strong governance influence.",
+      "lighthouseDesc": "Major patron. Maximum governance weight and recognition."
+    },
+    "nav": {
+      "back": "Back",
+      "next": "Continue",
+      "cancel": "Cancel"
+    },
+    "errors": {
+      "belowMinimum": "Contribution must be at least $5 pUSD.",
+      "invalidAmount": "Please enter a valid amount.",
+      "walletNotConnected": "Please connect your wallet to continue.",
+      "transactionFailed": "Transaction failed. Please try again."
+    },
+    "benefits": {
+      "title": "Alliance Benefits",
+      "governance": "Vote on funding decisions and outlet allocations",
+      "rewards": "Earn yield from the pooled treasury",
+      "recognition": "Tier badges displayed on your profile",
+      "impact": "Directly fund independent journalism worldwide"
+    },
+    "welcome": {
+      "title": "Welcome to the Alliance",
+      "subtitle": "Your contribution has been confirmed. You are now part of a global movement funding independent journalism.",
+      "whatsNext": "What's Next",
+      "step1": "View your position and tier on your Dashboard",
+      "step2": "Explore the Treasury to see how funds are distributed",
+      "step3": "Participate in governance decisions as proposals become available",
+      "goToDashboard": "Go to Dashboard",
+      "viewTreasury": "View Treasury"
+    }
+  },
+  "dashboard": {
+    "title": "Contributor Dashboard",
+    "description": "Manage your Alliance position, view rewards, and track your impact.",
+    "signInRequired": "Sign In Required",
+    "signInDescription": "Connect your wallet to view your contributor dashboard.",
+    "position": {
+      "title": "Your Position",
+      "shares": "Shares",
+      "value": "Current Value",
+      "contributed": "Total Contributed",
+      "tier": "Tier"
+    },
+    "actions": {
+      "contribute": "Contribute More",
+      "withdraw": "Request Withdrawal"
+    },
+    "withdrawals": {
+      "title": "Pending Withdrawals",
+      "noWithdrawals": "No pending withdrawal requests.",
+      "status": "Status",
+      "shares": "Shares",
+      "requestedAt": "Requested",
+      "availableAt": "Available",
+      "complete": "Complete",
+      "cancel": "Cancel",
+      "daysRemaining": "{count} days remaining",
+      "hoursRemaining": "{count} hours remaining",
+      "ready": "Ready to complete"
+    },
+    "stats": {
+      "title": "Pool Statistics",
+      "tvl": "Total Value Locked",
+      "contributors": "Contributors",
+      "outlets": "Funded Outlets",
+      "distributed": "Total Distributed"
+    },
+    "withdraw": {
+      "title": "Request Withdrawal",
+      "description": "Enter the number of shares you want to withdraw. After requesting, you must wait 30 days before completing the withdrawal.",
+      "sharesLabel": "Shares to Withdraw",
+      "availableShares": "Available: {shares} shares",
+      "estimatedValue": "Estimated Value",
+      "cooldownNote": "30-day cooldown applies",
+      "submit": "Request Withdrawal",
+      "submitting": "Requesting...",
+      "cancel": "Cancel"
+    },
+    "tierProgress": {
+      "currentTier": "Current Tier",
+      "nextTier": "Next Tier",
+      "amountToNext": "Contribute {amount} more to reach next tier",
+      "maxTierReached": "Maximum tier achieved!"
+    },
+    "history": {
+      "title": "Contribution History",
+      "description": "View your complete contribution and withdrawal history.",
+      "type": "Type",
+      "amount": "Amount",
+      "shares": "Shares",
+      "date": "Date",
+      "txHash": "Transaction",
+      "contribution": "Contribution",
+      "withdrawal": "Withdrawal",
+      "noHistory": "No transaction history yet."
+    },
+    "withdrawalsPage": {
+      "title": "Withdrawal Requests",
+      "description": "Manage your pending and completed withdrawal requests.",
+      "allWithdrawals": "All Withdrawals",
+      "pending": "Pending",
+      "completed": "Completed",
+      "cancelled": "Cancelled",
+      "noWithdrawals": "No withdrawal requests yet."
+    }
+  },
+  "alliance": {
+    "title": "Firefly Alliance",
+    "treasury": {
+      "title": "Alliance Treasury",
+      "description": "View the collective treasury funding independent journalism worldwide.",
+      "tvl": "Total Value Locked",
+      "contributors": "Contributors",
+      "sharePrice": "Share Price",
+      "outlets": {
+        "title": "Funded Outlets",
+        "description": "News organizations receiving funding from the Alliance treasury.",
+        "weight": "Weight",
+        "distributed": "Distributed",
+        "noOutlets": "No outlets registered yet."
+      },
+      "distributions": {
+        "title": "Distribution History",
+        "description": "Recent yield distributions to funded outlets.",
+        "amount": "Amount",
+        "date": "Date",
+        "noDistributions": "No distributions yet."
+      },
+      "tiers": {
+        "title": "Contributor Tiers",
+        "spark": "Spark",
+        "flame": "Flame",
+        "beacon": "Beacon",
+        "lighthouse": "Lighthouse"
+      }
+    },
+    "governance": {
+      "title": "Governance",
+      "description": "Participate in Alliance decision-making through snapshot voting.",
+      "overview": {
+        "title": "Governance Overview",
+        "activeProposals": "Active Proposals",
+        "yourVotingPower": "Your Voting Power",
+        "noActiveProposals": "No active proposals at this time.",
+        "recentlyFinalized": "Recently Finalized",
+        "viewAll": "View All Proposals"
+      },
+      "proposals": {
+        "title": "All Proposals",
+        "create": "Create Proposal",
+        "noProposals": "No proposals yet. Be the first to create one.",
+        "filterByType": "Filter by Type",
+        "filterByStatus": "Filter by Status",
+        "searchPlaceholder": "Search proposals...",
+        "proposalWord": "proposal",
+        "proposalsWord": "proposals",
+        "ofWord": "of",
+        "clearFilters": "Clear filters"
+      },
+      "proposal": {
+        "title": "Proposal Details",
+        "votingPeriod": "Voting Period",
+        "quorum": "Quorum",
+        "threshold": "Approval Threshold",
+        "castVote": "Cast Your Vote",
+        "approve": "Approve",
+        "reject": "Reject",
+        "abstain": "Abstain",
+        "execute": "Execute Proposal",
+        "cancel": "Cancel Proposal",
+        "proposedBy": "Proposed by",
+        "yourVote": "Your Vote",
+        "alreadyVoted": "You have already voted on this proposal.",
+        "voteRationale": "Vote Rationale (optional)",
+        "voteRationalePlaceholder": "Explain your vote...",
+        "votingEnds": "Voting ends",
+        "votingEnded": "Voting ended",
+        "executionAvailable": "Execution available",
+        "timelockRemaining": "Timelock remaining",
+        "votes": "Votes",
+        "forVotes": "For",
+        "againstVotes": "Against",
+        "abstainVotes": "Abstain",
+        "totalWeight": "Total Weight",
+        "quorumProgress": "Quorum Progress",
+        "quorumReached": "Quorum Reached",
+        "quorumNotReached": "Quorum Not Reached",
+        "approvalProgress": "Approval Progress",
+        "payload": "Proposal Details"
+      },
+      "create": {
+        "title": "Create Proposal",
+        "description": "Create a governance proposal for the Alliance to vote on.",
+        "typeLabel": "Proposal Type",
+        "titleLabel": "Title",
+        "titlePlaceholder": "Brief, descriptive title for your proposal",
+        "descriptionLabel": "Description",
+        "descriptionPlaceholder": "Detailed explanation of your proposal, including rationale and expected impact...",
+        "submit": "Submit Proposal",
+        "submitting": "Submitting...",
+        "tierRequired": "You need Beacon tier or higher to create proposals.",
+        "signInRequired": "Sign in to create a proposal.",
+        "success": "Proposal created successfully!",
+        "outletAdd": {
+          "title": "Add Outlet",
+          "outletIdLabel": "Outlet ID",
+          "outletIdPlaceholder": "Unique identifier for the outlet",
+          "outletNameLabel": "Outlet Name",
+          "outletNamePlaceholder": "Official name of the news outlet",
+          "treasuryLabel": "Treasury Address",
+          "treasuryPlaceholder": "Address to receive funding",
+          "weightLabel": "Initial Weight",
+          "weightHelp": "Allocation weight in basis points (e.g., 5000 = 50%)",
+          "rationaleLabel": "Rationale",
+          "rationalePlaceholder": "Why should this outlet be added?"
+        },
+        "outletRemove": {
+          "title": "Remove Outlet",
+          "outletIdLabel": "Outlet to Remove",
+          "reasonLabel": "Reason for Removal",
+          "reasonPlaceholder": "Why should this outlet be removed?"
+        },
+        "weightChange": {
+          "title": "Change Weights",
+          "descriptionText": "Modify allocation weights for funded outlets.",
+          "newWeightsLabel": "New Weights",
+          "rationaleLabel": "Rationale",
+          "rationalePlaceholder": "Why should weights be changed?"
+        },
+        "parameterChange": {
+          "title": "Change Parameter",
+          "parameterLabel": "Parameter",
+          "currentValueLabel": "Current Value",
+          "newValueLabel": "New Value",
+          "rationaleLabel": "Rationale",
+          "rationalePlaceholder": "Why should this parameter be changed?"
+        },
+        "emergency": {
+          "title": "Emergency Action",
+          "warning": "Emergency proposals require 80% approval and have accelerated voting.",
+          "actionLabel": "Emergency Action",
+          "descriptionLabel": "Description",
+          "descriptionPlaceholder": "Detailed explanation of the emergency..."
+        }
+      },
+      "types": {
+        "outlet-add": "Add Outlet",
+        "outlet-remove": "Remove Outlet",
+        "weight-change": "Change Weights",
+        "parameter-change": "Change Parameters",
+        "emergency": "Emergency Action"
+      },
+      "status": {
+        "voting": "Voting",
+        "approved": "Approved",
+        "rejected": "Rejected",
+        "expired": "Expired",
+        "executed": "Executed"
+      },
+      "council": {
+        "title": "Alliance Council",
+        "description": "The Council oversees outlet additions and removals, ensuring quality standards are maintained.",
+        "members": "Council Members",
+        "responsibilities": "Responsibilities",
+        "noMembers": "No council members yet.",
+        "responsibilitiesList": {
+          "outlets": "Review and approve outlet applications",
+          "quality": "Monitor outlet quality and compliance",
+          "emergency": "Handle emergency situations",
+          "disputes": "Resolve governance disputes"
+        }
+      },
+      "errors": {
+        "proposalNotFound": "Proposal not found.",
+        "walletNotConnected": "Please connect your wallet to participate.",
+        "insufficientTier": "Your contributor tier is not high enough for this action.",
+        "alreadyVoted": "You have already voted on this proposal.",
+        "votingEnded": "The voting period has ended.",
+        "executionFailed": "Failed to execute proposal.",
+        "timelockNotExpired": "Timelock has not expired yet."
+      }
+    }
+  },
+  "newsroom": {
+    "title": "Newsroom",
+    "description": "Manage your organization's operations, treasury, and team.",
+    "signInRequired": "Sign in to access newsroom",
+    "noAccess": "You don't have access to this newsroom",
+    "selectOrg": "Select Organization",
+    "noOrgs": "You are not a member of any organizations.",
+    "overview": {
+      "title": "Dashboard",
+      "treasuryBalance": "Treasury Balance",
+      "teamMembers": "Team Members",
+      "pendingApprovals": "Pending Approvals",
+      "recentActivity": "Recent Activity",
+      "noActivity": "No recent activity."
+    },
+    "treasury": {
+      "title": "Treasury",
+      "balance": "Balance",
+      "available": "Available",
+      "escrowed": "Escrowed",
+      "transactions": "Transactions",
+      "withdraw": "Request Withdrawal",
+      "deposit": "Record Deposit",
+      "noTransactions": "No transactions yet.",
+      "viewAll": "View All Transactions"
+    },
+    "transactions": {
+      "title": "Transaction History",
+      "filterByStatus": "Filter by Status",
+      "filterByType": "Filter by Type",
+      "pending": "Pending",
+      "approved": "Approved",
+      "executed": "Executed",
+      "rejected": "Rejected",
+      "cancelled": "Cancelled",
+      "withdrawal": "Withdrawal",
+      "deposit": "Deposit",
+      "transfer": "Transfer",
+      "allocation": "Allocation",
+      "approve": "Approve",
+      "execute": "Execute",
+      "cancel": "Cancel",
+      "approvals": "Approvals",
+      "noTransactions": "No transactions match your filters."
+    },
+    "withdraw": {
+      "title": "Request Withdrawal",
+      "amount": "Amount",
+      "recipient": "Recipient Address",
+      "category": "Budget Category",
+      "purpose": "Purpose",
+      "submit": "Submit Request",
+      "submitting": "Submitting...",
+      "insufficientBalance": "Insufficient balance",
+      "exceedsLimit": "Amount exceeds per-transaction limit",
+      "success": "Withdrawal request submitted successfully"
+    },
+    "team": {
+      "title": "Team",
+      "members": "Members",
+      "invitations": "Pending Invitations",
+      "invite": "Invite Member",
+      "noMembers": "No team members yet.",
+      "noInvitations": "No pending invitations.",
+      "role": "Role",
+      "joinedAt": "Joined",
+      "status": "Status",
+      "active": "Active",
+      "suspended": "Suspended",
+      "pending": "Pending",
+      "changeRole": "Change Role",
+      "remove": "Remove",
+      "revokeInvite": "Revoke"
+    },
+    "invite": {
+      "title": "Invite Team Member",
+      "credential": "DIM Credential",
+      "credentialPlaceholder": "Enter DIM credential",
+      "role": "Role",
+      "message": "Message (optional)",
+      "messagePlaceholder": "Add a personal message...",
+      "send": "Send Invitation",
+      "sending": "Sending...",
+      "success": "Invitation sent successfully"
+    },
+    "roles": {
+      "owner": "Owner",
+      "admin": "Administrator",
+      "editor": "Editor",
+      "contributor": "Contributor",
+      "viewer": "Viewer"
+    },
+    "budget": {
+      "title": "Budget Summary",
+      "period": "Period",
+      "startingBalance": "Starting Balance",
+      "endingBalance": "Ending Balance",
+      "income": "Total Income",
+      "expenses": "Total Expenses",
+      "burnRate": "Monthly Burn Rate",
+      "runway": "Runway",
+      "months": "months",
+      "byCategory": "Expenses by Category",
+      "bySource": "Income by Source",
+      "thisMonth": "This Month",
+      "thisQuarter": "This Quarter",
+      "thisYear": "This Year",
+      "noData": "No budget data for this period."
+    },
+    "categories": {
+      "editorial": "Editorial",
+      "technology": "Technology",
+      "administration": "Administration",
+      "field-operations": "Field Operations",
+      "legal": "Legal",
+      "grants-out": "Grants Out",
+      "other": "Other"
+    },
+    "sources": {
+      "campaigns": "Campaigns",
+      "grants": "Grants",
+      "donations": "Donations",
+      "other": "Other"
+    },
+    "settings": {
+      "title": "Settings",
+      "general": "General",
+      "generalDescription": "Basic organization information and configuration.",
+      "treasury": "Treasury Configuration",
+      "treasuryDescription": "Multi-sig settings and spending limits.",
+      "governance": "Governance Rules",
+      "governanceDescription": "Voting thresholds and proposal requirements.",
+      "name": "Organization Name",
+      "description": "Description",
+      "mission": "Mission Statement",
+      "signers": "Treasury Signers",
+      "threshold": "Approval Threshold",
+      "thresholdHelp": "Number of signatures required to approve transactions",
+      "limits": "Spending Limits",
+      "perTransaction": "Per Transaction Limit",
+      "daily": "Daily Limit",
+      "save": "Save Changes",
+      "saving": "Saving...",
+      "saved": "Settings saved successfully"
+    },
+    "permissions": {
+      "signInRequired": "Sign in to access newsroom",
+      "noAccess": "You don't have access to this newsroom",
+      "insufficientPermission": "Insufficient permissions for this action"
+    },
+    "nav": {
+      "dashboard": "Dashboard",
+      "treasury": "Treasury",
+      "team": "Team",
+      "budget": "Budget",
+      "settings": "Settings"
+    }
+  },
+  "featureCards": {
+    "newsroom": {
+      "title": "Newsroom",
+      "description": "Browse signals and corroborate claims"
+    },
+    "alliance": {
+      "title": "Alliance Governance",
+      "description": "Vote on proposals and stewardship"
+    },
+    "join": {
+      "title": "Join the Network",
+      "description": "Complete onboarding and verification"
+    },
+    "verify": {
+      "title": "Verify Identity",
+      "description": "Manage your DIM credentials"
+    }
+  }
+}

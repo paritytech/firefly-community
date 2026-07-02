@@ -1,0 +1,11 @@
+{
+  "filter_paths": ["node_modules", "lib", "cache", "artifacts"],
+  "exclude_informational": true,
+  "exclude_low": false,
+  "exclude_optimization": true,
+  "solc_remaps": ["@openzeppelin/=node_modules/@openzeppelin/"],
+  "compile_force_framework": "hardhat",
+  "fail_on": "high",
+  "printers": [],
+  "detectors_to_exclude": ["pragma", "solc-version", "naming-convention"]
+}

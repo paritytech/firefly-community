@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+.next/
+out/
+
+# Generated files
+packages/contracts/cache/
+packages/contracts/artifacts/
+packages/contracts/typechain-types/
+
+# Lock files
+pnpm-lock.yaml
+
+# Coverage
+coverage/
+**/coverage.json
+**/coverage-summary.json
+
+# Generated polkadot-api descriptors (committed for CI determinism, regenerated from .papi/metadata)
+**/.papi/
+
+# Generated contract deploy artifacts (OpenZeppelin upgrades manifest, deployment address dumps)
+**/.openzeppelin/
+packages/contracts/deployments/

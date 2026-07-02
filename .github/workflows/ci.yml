@@ -1,0 +1,194 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+  pull-requests: write
+
+concurrency:
+  group: ci-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  lint-and-typecheck:
+    name: Lint & Typecheck
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'pnpm'
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Lint
+        run: pnpm lint
+
+      - name: Typecheck
+        run: pnpm typecheck
+
+      - name: Format check
+        run: pnpm format:check
+
+  test:
+    name: Unit Tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'pnpm'
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Run tests with coverage
+        run: pnpm test:coverage
+
+  contract-security:
+    name: Contract Security
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'pnpm'
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Setup Python for Slither
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Slither
+        run: pip install slither-analyzer
+
+      - name: Install Solc
+        run: |
+          pip install solc-select
+          solc-select install 0.8.28
+          solc-select use 0.8.28
+
+      - name: Compile contracts
+        run: pnpm --filter @cocuyo/contracts compile
+
+      - name: Run Slither
+        run: pnpm --filter @cocuyo/contracts slither:check
+        # TODO: drop continue-on-error once the current Slither findings are triaged
+        # and resolved (or explicitly suppressed). Until then it reports without gating.
+        continue-on-error: true
+
+      - name: Run Solhint
+        run: pnpm --filter @cocuyo/contracts lint
+
+  contract-coverage:
+    name: Contract Coverage
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'pnpm'
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Run coverage
+        run: pnpm --filter @cocuyo/contracts coverage
+
+      - name: Check coverage thresholds
+        run: pnpm --filter @cocuyo/contracts coverage:check
+
+  e2e:
+    name: E2E Tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'pnpm'
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Install Playwright browsers
+        run: pnpm --filter @cocuyo/web exec playwright install --with-deps chromium
+
+      - name: Build app and dependencies
+        run: pnpm --filter @cocuyo/web... build
+
+      - name: Start server and run E2E suite
+        run: |
+          npx --yes serve apps/web/dist -l 3000 &
+          # Wait until the static server is actually accepting connections.
+          # A fixed `sleep` races `npx serve` (it downloads the package on first
+          # run), so the first test could hit ERR_CONNECTION_REFUSED.
+          for i in $(seq 1 60); do
+            if curl -sf http://localhost:3000/en >/dev/null; then
+              echo "Server ready after ${i}s"; break
+            fi
+            if [ "$i" -eq 60 ]; then echo "Server did not become ready in 60s"; exit 1; fi
+            sleep 1
+          done
+          # Full suite (smoke + journeys + accessibility), verified green against the
+          # static export. Journeys connect via the Spektr host-wallet fixture.
+          pnpm --filter @cocuyo/web test:e2e --project=chromium
+        env:
+          CI: true
+          BASE_URL: http://localhost:3000
+
+      - name: Upload test results
+        uses: actions/upload-artifact@v4
+        if: failure()
+        with:
+          name: playwright-report
+          path: apps/web/playwright-report/
+          retention-days: 7
+
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    needs: [lint-and-typecheck, test]
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: pnpm/action-setup@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'pnpm'
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Build all packages
+        run: pnpm build

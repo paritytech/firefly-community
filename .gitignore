@@ -1,0 +1,61 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build outputs
+dist/
+.next/
+out/
+build/
+
+# Turbo
+.turbo/
+
+# Testing
+coverage/
+playwright-report/
+test-results/
+
+# Environment — never commit any env file except the documented example.
+.env
+.env.*
+!.env.example
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# Misc
+*.tsbuildinfo
+.eslintcache
+apps/web/dist.bulletin.car
+apps/web/.bulletin-memory-report.json
+
+# AI tooling state
+.code-review-graph/
+.claude/
+.cursor/
+.codeium/
+.gemini/
+.roo/
+.cline/
+.codex/
+.swarm/
+.ai/
+.llm/
+.mcp.json
+opencode.json
+
+# design-sync (Claude Design) — local tooling, kept out of the public repo
+.design-sync/
+.ds-sync/
+ds-bundle/
+packages/ui/dist/firefly-ui.css

@@ -1,0 +1,38 @@
+{
+  "name": "Firefly Network",
+  "version": "0.1.0",
+  "description": "Surveillance-resistant network for collective intelligence",
+  "author": "Firefly Network",
+  "homepage": "https://firefly.network",
+  "permissions": {
+    "accounts": {
+      "required": true,
+      "description": "Access to wallet accounts for signing signals and corroborations"
+    },
+    "storage": {
+      "required": true,
+      "type": ["bulletin"],
+      "description": "Storage access for signals, chains, and verification data"
+    },
+    "geolocation": {
+      "required": false,
+      "description": "Optional location access for geo-tagged signals"
+    }
+  },
+  "entrypoint": "index.html",
+  "icons": {
+    "16": "icons/icon-16.png",
+    "32": "icons/icon-32.png",
+    "128": "icons/icon-128.png",
+    "256": "icons/icon-256.png"
+  },
+  "display": {
+    "mode": "spa",
+    "theme": "dark",
+    "orientation": "any"
+  },
+  "triangle": {
+    "modes": ["spa"],
+    "defaultMode": "spa"
+  }
+}

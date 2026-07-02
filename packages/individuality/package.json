@@ -1,0 +1,57 @@
+{
+  "name": "@cocuyo/individuality",
+  "version": "0.1.0",
+  "private": true,
+  "license": "GPL-3.0",
+  "description": "TypeScript client for Individuality pallets (PeopleLite, DIM)",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs",
+      "require": "./dist/index.js"
+    },
+    "./dotns": {
+      "types": "./dist/dotns/index.d.ts",
+      "import": "./dist/dotns/index.mjs",
+      "require": "./dist/dotns/index.js"
+    },
+    "./dotns/host": {
+      "types": "./dist/dotns/host.d.ts",
+      "import": "./dist/dotns/host.mjs",
+      "require": "./dist/dotns/host.js"
+    },
+    "./dotns/types": {
+      "types": "./dist/dotns/types.d.ts",
+      "import": "./dist/dotns/types.mjs",
+      "require": "./dist/dotns/types.js"
+    }
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint src/ --max-warnings 0",
+    "lint:fix": "eslint src/ --fix --max-warnings 0",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "clean": "rm -rf dist coverage"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@vitest/coverage-v8": "^3.1.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.3.0",
+    "vitest": "^3.1.0"
+  },
+  "dependencies": {
+    "@cocuyo/types": "workspace:*",
+    "@polkadot-apps/address": "0.4.0"
+  },
+  "peerDependencies": {
+    "@polkadot-apps/chain-client": ">=0.1.0"
+  }
+}

@@ -1,0 +1,242 @@
+/**
+ * Firefly Network Design Tokens
+ *
+ * Based on polkadot-ui-paint design system with dark mode as default.
+ * Extended with firefly gold accent for illumination moments.
+ *
+ * Token naming follows polkadot-ui-paint conventions:
+ * - Primitive tokens: --neutral-{N} (15-stop grayscale)
+ * - Semantic tokens: --{role}-{variant} (fg, bg, border, etc.)
+ */
+
+:root {
+  /* ═══════════════════════════════════════════════════════════════════════════
+   * PRIMITIVE COLORS - 15-stop neutral scale
+   * In dark mode, scale is inverted (higher = lighter)
+   * ═══════════════════════════════════════════════════════════════════════════ */
+
+  --neutral-50: #0a0a0a;
+  --neutral-100: #171717;
+  --neutral-150: #1f1f1f;
+  --neutral-200: #262626;
+  --neutral-250: #2e2e2e;
+  --neutral-300: #363636;
+  --neutral-350: #404040;
+  --neutral-400: #525252;
+  --neutral-450: #5c5c5c;
+  --neutral-500: #737373;
+  --neutral-550: #858585;
+  --neutral-600: #a3a3a3;
+  --neutral-650: #b5b5b5;
+  --neutral-700: #d4d4d4;
+  --neutral-750: #e5e5e5;
+  --neutral-800: #f0f0f0;
+  --neutral-850: #f5f5f5;
+  --neutral-900: #fafafa;
+  --neutral-1000: #ffffff;
+
+  /* ═══════════════════════════════════════════════════════════════════════════
+   * FIREFLY GOLD - Custom accent color
+   * ═══════════════════════════════════════════════════════════════════════════ */
+
+  --color-firefly-gold: #e8b931;
+  --color-firefly-gold-dim: #c49a1c;
+  --color-firefly-gold-glow: rgba(232, 185, 49, 0.15);
+
+  /* ═══════════════════════════════════════════════════════════════════════════
+   * SEMANTIC TOKENS - Background
+   * ═══════════════════════════════════════════════════════════════════════════ */
+
+  --bg-default: var(--neutral-50);
+  --bg-surface-main: var(--neutral-50);
+  --bg-surface-container: var(--neutral-100);
+  --bg-surface-nested: var(--neutral-150);
+  --bg-surface-muted: var(--neutral-200);
+  --bg-surface-hover: var(--neutral-250);
+  --bg-surface-inverse: var(--neutral-1000);
+
+  /* Semantic background aliases (primary/secondary/tertiary). Referenced widely in
+     app code — `bg-[var(--bg-primary)]` surfaces and `text-[var(--bg-primary)]`
+     dark-on-accent text (the Illuminate / Create Campaign buttons). Without these the
+     var is undefined: backgrounds fall back to transparent and on-accent text falls
+     back to the light foreground, which fails WCAG contrast on the gold buttons. */
+  --bg-primary: var(--bg-surface-main);
+  --bg-secondary: var(--bg-surface-container);
+  --bg-tertiary: var(--bg-surface-nested);
+  --bg-fill-primary: var(--neutral-200);
+  --bg-fill-primary-hover: var(--neutral-300);
+  --bg-fill-secondary: var(--neutral-150);
+  --bg-fill-secondary-hover: var(--neutral-250);
+  --bg-fill-muted: var(--neutral-100);
+  --bg-fill-tertiary: var(--neutral-100);
+  --bg-button-primary: var(--neutral-1000);
+  --bg-button-primary-hover: var(--neutral-900);
+  --bg-action-primary: var(--neutral-1000);
+  --bg-action-primary-hover: var(--neutral-850);
+  --bg-action-secondary: transparent;
+  --bg-action-secondary-hover: var(--neutral-200);
+  --bg-overlay: rgba(0, 0, 0, 0.7);
+  --bg-accent-firefly: var(--color-firefly-gold);
+  --bg-success: #166534;
+  --bg-error: #991b1b;
+
+  /* ═══════════════════════════════════════════════════════════════════════════
+   * SEMANTIC TOKENS - Foreground (Text)
+   * ═══════════════════════════════════════════════════════════════════════════ */
+
+  --fg-default: var(--neutral-1000);
+  --fg-primary: var(--neutral-1000);
+  --fg-primary-inverted: var(--neutral-50);
+  --fg-secondary: var(--neutral-600);
+  /* neutral-500 (#737373) fails WCAG AA (~3.9:1) for small text on the dark surfaces; neutral-600
+     meets AA (>=4.5:1) across bg-default through bg-surface-muted. */
+  --fg-tertiary: var(--neutral-600);
+  --fg-muted: var(--neutral-450);
+  --fg-disabled: var(--neutral-400);
+  --fg-inverse: var(--neutral-50);
+  --fg-accent: var(--color-firefly-gold);
+  --fg-accent-firefly: var(--color-firefly-gold);
+  --fg-success: #4ade80;
+  --fg-error: #f87171;
+  --fg-warning: #fbbf24;
+  --fg-info: #60a5fa;
+  --fg-polkadot-pink: #e6007a;
+
+  /* ═══════════════════════════════════════════════════════════════════════════
+   * SEMANTIC TOKENS - Border
+   * ═══════════════════════════════════════════════════════════════════════════ */
+
+  --border-default: var(--neutral-200);
+  --border-subtle: var(--neutral-150);
+  --border-emphasis: var(--neutral-300);
+  --border-muted: var(--neutral-100);
+  --border-hover: var(--neutral-350);
+  --border-focus: var(--color-firefly-gold);
+  --border-inverse: var(--neutral-800);
+  --border-accent: var(--color-firefly-gold);
+  --border-error: var(--fg-error);
+  --border-success: var(--fg-success);
+
+  /* ═══════════════════════════════════════════════════════════════════════════
+   * SEMANTIC TOKENS - Shadow
+   * ═══════════════════════════════════════════════════════════════════════════ */
+
+  --shadow-1: 0 1px 2px rgba(0, 0, 0, 0.3);
+  --shadow-2: 0 2px 8px rgba(0, 0, 0, 0.4);
+  --shadow-3: 0 4px 16px rgba(0, 0, 0, 0.5);
+  --shadow-focus: 0 0 0 2px var(--color-firefly-gold);
+  --shadow-glow: 0 0 20px var(--color-firefly-gold-glow);
+
+  /* ═══════════════════════════════════════════════════════════════════════════
+   * SEMANTIC TOKENS - Focus
+   * ═══════════════════════════════════════════════════════════════════════════ */
+
+  --focus-ring: var(--color-firefly-gold);
+  --focus-offset: 2px;
+
+  /* ═══════════════════════════════════════════════════════════════════════════
+   * TYPOGRAPHY
+   * ═══════════════════════════════════════════════════════════════════════════ */
+
+  --font-display: 'DM Serif Display', serif;
+  --font-body: 'Inter', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  /* Font sizes */
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+  --text-3xl: 2rem;
+  --text-4xl: 2.5rem;
+  --text-5xl: 3rem;
+
+  /* Line heights */
+  --leading-tight: 1.25;
+  --leading-normal: 1.5;
+  --leading-relaxed: 1.6;
+
+  /* Font weights */
+  --font-light: 300;
+  --font-normal: 400;
+  --font-medium: 500;
+  --font-semibold: 600;
+  --font-bold: 700;
+
+  /* ═══════════════════════════════════════════════════════════════════════════
+   * SPACING
+   * ═══════════════════════════════════════════════════════════════════════════ */
+
+  --spacing-1: 0.25rem;
+  --spacing-2: 0.5rem;
+  --spacing-3: 0.75rem;
+  --spacing-4: 1rem;
+  --spacing-5: 1.25rem;
+  --spacing-6: 1.5rem;
+  --spacing-8: 2rem;
+  --spacing-10: 2.5rem;
+  --spacing-12: 3rem;
+  --spacing-16: 4rem;
+  --spacing-20: 5rem;
+  --spacing-24: 6rem;
+
+  /* ═══════════════════════════════════════════════════════════════════════════
+   * RADIUS (polkadot-ui-paint conventions)
+   * ═══════════════════════════════════════════════════════════════════════════ */
+
+  --radius-small: 8px;
+  --radius-nested: 12px;
+  --radius-container: 16px;
+  --radius-full: 9999px;
+
+  /* Legacy aliases */
+  --radius-sm: var(--radius-small);
+  --radius-md: var(--radius-nested);
+  --radius-lg: var(--radius-container);
+
+  /* ═══════════════════════════════════════════════════════════════════════════
+   * LAYOUT
+   * ═══════════════════════════════════════════════════════════════════════════ */
+
+  --navbar-height: 64px;
+  --navbar-height-mobile: 56px;
+  --content-max-width: 1280px;
+  --content-max-width-narrow: 720px;
+
+  /* ═══════════════════════════════════════════════════════════════════════════
+   * ANIMATION
+   * ═══════════════════════════════════════════════════════════════════════════ */
+
+  --duration-fast: 150ms;
+  --duration-normal: 200ms;
+  --duration-slow: 300ms;
+  --duration-slower: 400ms;
+
+  --ease-default: ease-in-out;
+  --ease-in: ease-in;
+  --ease-out: ease-out;
+
+  /* ═══════════════════════════════════════════════════════════════════════════
+   * Z-INDEX
+   * ═══════════════════════════════════════════════════════════════════════════ */
+
+  --z-base: 0;
+  --z-elevated: 10;
+  --z-dropdown: 20;
+  --z-sticky: 30;
+  --z-overlay: 40;
+  --z-modal: 50;
+  --z-toast: 60;
+}
+
+/* Reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --duration-fast: 0.01ms;
+    --duration-normal: 0.01ms;
+    --duration-slow: 0.01ms;
+    --duration-slower: 0.01ms;
+  }
+}

@@ -1,0 +1,12 @@
+name = "claim-extractor"
+main = "src/index.ts"
+compatibility_date = "2024-11-01"
+
+# Secrets (do NOT put these here — set them out-of-band):
+#   wrangler secret put OPENAI_API_KEY
+#
+# Origin allow-list — STRONGLY RECOMMENDED so others cannot spend your OpenAI
+# quota. Requests whose Origin is not listed get 403. Comma-separated.
+[vars]
+ALLOWED_ORIGINS = ""
+# e.g. ALLOWED_ORIGINS = "https://your-app.example,http://localhost:3000"

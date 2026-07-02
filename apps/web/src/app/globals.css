@@ -1,0 +1,46 @@
+/**
+ * Global styles for the Firefly Network web app
+ *
+ * Imports polkadot-ui-paint design tokens from @cocuyo/ui
+ */
+
+/* Import the shared UI package styles (includes tokens.css) */
+@import '@cocuyo/ui/styles/globals.css';
+
+/**
+ * Legacy token aliases for backward compatibility.
+ * Maps old --color-* tokens to new semantic tokens.
+ * TODO: Migrate all components to use new tokens directly.
+ */
+:root {
+  /* Legacy background aliases */
+  --color-bg-primary: var(--bg-surface-main);
+  --color-bg-secondary: var(--bg-surface-container);
+  --color-bg-tertiary: var(--bg-surface-nested);
+  --color-bg-elevated: var(--bg-surface-muted);
+
+  /* Legacy text aliases */
+  --color-text-primary: var(--fg-primary);
+  --color-text-secondary: var(--fg-secondary);
+  --color-text-tertiary: var(--fg-tertiary);
+
+  /* Legacy border aliases */
+  --color-border-default: var(--border-default);
+  --color-border-subtle: var(--border-subtle);
+  --color-border-emphasis: var(--border-emphasis);
+
+  /* Legacy accent aliases */
+  --color-accent: var(--color-firefly-gold);
+  --color-accent-dim: var(--color-firefly-gold-dim);
+  --color-accent-glow: var(--color-firefly-gold-glow);
+  /* Several components reference the bare `--accent` token (verify flow, post actions, stepper).
+     Define it so those accents actually render gold instead of an undefined (colorless) value. */
+  --accent: var(--color-firefly-gold);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

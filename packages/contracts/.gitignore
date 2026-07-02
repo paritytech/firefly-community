@@ -1,0 +1,24 @@
+# Hardhat
+cache/
+artifacts/
+typechain-types/
+
+# Downloaded binaries (resolc, revive-dev-node, etc.)
+bin/
+
+# Coverage
+coverage/
+coverage.json
+
+# Environment
+.env
+.env.local
+
+# Build
+dist/
+
+# Deployments (environment-specific)
+deployments/
+
+# OpenZeppelin upgrades
+.openzeppelin/

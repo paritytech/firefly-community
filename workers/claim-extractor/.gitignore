@@ -1,0 +1,4 @@
+# Cloudflare Workers — never commit local secrets or build state
+.dev.vars
+.dev.vars.*
+.wrangler/

@@ -1,0 +1,357 @@
+/**
+ * Global styles for the Firefly Network
+ *
+ * Typography: Inter for body, DM Serif Display for hero headings
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import './tokens.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  html {
+    font-family: var(--font-body);
+    font-size: 16px;
+    line-height: var(--leading-normal);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: var(--bg-default);
+    color: var(--fg-primary);
+  }
+
+  /* Headings use Inter semibold by default */
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-body);
+    font-weight: var(--font-semibold);
+    line-height: var(--leading-tight);
+    color: var(--fg-primary);
+  }
+
+  h1 {
+    font-size: var(--text-4xl);
+    font-weight: var(--font-bold);
+  }
+
+  h2 {
+    font-size: var(--text-3xl);
+  }
+
+  h3 {
+    font-size: var(--text-2xl);
+  }
+
+  h4 {
+    font-size: var(--text-xl);
+  }
+
+  h5 {
+    font-size: var(--text-lg);
+  }
+
+  h6 {
+    font-size: var(--text-base);
+  }
+
+  /* Hero headings use DM Serif Display */
+  .hero-heading {
+    font-family: var(--font-display);
+    font-weight: var(--font-normal);
+  }
+
+  /* Links */
+  a {
+    color: var(--fg-primary);
+    text-decoration: none;
+    transition: color var(--duration-normal) var(--ease-default);
+  }
+
+  a:hover {
+    color: var(--fg-accent);
+  }
+
+  /* Code / technical data uses JetBrains Mono */
+  code,
+  pre,
+  kbd,
+  samp {
+    font-family: var(--font-mono);
+    font-size: 0.9em;
+  }
+
+  /* Focus styles for accessibility - uses firefly gold */
+  :focus-visible {
+    outline: 2px solid var(--focus-ring);
+    outline-offset: var(--focus-offset);
+  }
+
+  /* Remove default button styles */
+  button {
+    font-family: inherit;
+    font-size: inherit;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+  }
+
+  /* Remove default list styles */
+  ul,
+  ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Selection color - firefly gold */
+  ::selection {
+    background-color: var(--color-firefly-gold);
+    color: var(--fg-inverse);
+  }
+}
+
+@layer components {
+  /* Container utilities */
+  .container-narrow {
+    max-width: var(--content-max-width-narrow);
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: var(--spacing-4);
+    padding-right: var(--spacing-4);
+  }
+
+  .container-wide {
+    max-width: var(--content-max-width);
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: var(--spacing-4);
+    padding-right: var(--spacing-4);
+  }
+
+  /* Firefly glow effect */
+  .glow-accent {
+    box-shadow: var(--shadow-glow);
+  }
+
+  .glow-accent-strong {
+    box-shadow: 0 0 30px rgba(232, 185, 49, 0.25);
+  }
+}
+
+@layer utilities {
+  /* Text utilities */
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  /* Hide scrollbar but allow scrolling */
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Font display class for hero headings */
+  .font-display {
+    font-family: var(--font-display);
+  }
+
+  /* Animation utilities */
+  .animate-slide-up {
+    animation: slide-up var(--duration-normal) var(--ease-default);
+  }
+
+  .animate-fade-in {
+    animation: fade-in var(--duration-normal) var(--ease-default);
+  }
+
+  .animate-spin {
+    animation: spin 1s linear infinite;
+  }
+
+  .animate-pulse {
+    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+
+  .animate-pulse-subtle {
+    animation: pulse-glow 2s ease-in-out infinite;
+  }
+
+  .animate-firefly-pulse {
+    animation: firefly-pulse 2s ease-in-out infinite;
+  }
+
+  .animate-pulse-glow {
+    animation: pulse-glow 3s ease-in-out infinite;
+  }
+
+  .animate-scale-in {
+    animation: scale-in var(--duration-normal) var(--ease-default);
+  }
+
+  .animate-backdrop-in {
+    animation: backdrop-in var(--duration-normal) var(--ease-default);
+  }
+
+  .animate-slide-in-right {
+    animation: slide-in-right var(--duration-normal) var(--ease-default);
+  }
+
+  /* Stagger animation for list items */
+  .animate-stagger-item {
+    opacity: 0;
+    animation: stagger-slide-up var(--duration-slow) var(--ease-default) forwards;
+    animation-delay: calc(var(--stagger-index, 0) * 50ms);
+  }
+
+  /* Faster stagger variant for longer lists */
+  .animate-stagger-item-fast {
+    opacity: 0;
+    animation: stagger-slide-up var(--duration-normal) var(--ease-default) forwards;
+    animation-delay: calc(var(--stagger-index, 0) * 30ms);
+  }
+}
+
+/* Keyframe animations */
+@keyframes slide-up {
+  from {
+    opacity: 0;
+    transform: translateY(1rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+@keyframes pulse-glow {
+  0%,
+  100% {
+    box-shadow: 0 0 20px rgba(232, 185, 49, 0.4);
+  }
+  50% {
+    box-shadow: 0 0 40px rgba(232, 185, 49, 0.6), 0 0 60px rgba(232, 185, 49, 0.3);
+  }
+}
+
+@keyframes firefly-pulse {
+  0%,
+  100% {
+    color: var(--fg-accent);
+    filter: drop-shadow(0 0 2px rgba(232, 185, 49, 0.5));
+  }
+  50% {
+    color: var(--fg-accent);
+    filter: drop-shadow(0 0 6px rgba(232, 185, 49, 0.8));
+  }
+}
+
+@keyframes scale-in {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes backdrop-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes stagger-slide-up {
+  from {
+    opacity: 0;
+    transform: translateY(0.75rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slide-in-right {
+  from {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Reduced motion: disable animations for users who prefer reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+
+  .animate-stagger-item,
+  .animate-stagger-item-fast {
+    opacity: 1;
+    animation: none;
+  }
+}

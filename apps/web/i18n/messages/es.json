@@ -1,0 +1,1187 @@
+{
+  "metadata": {
+    "title": "Red Luciérnaga — Luces en la Oscuridad",
+    "description": "Una red resistente a la vigilancia para la inteligencia colectiva, donde humanos verificados comparten, corroboran y construyen entendimiento sin exponer sus identidades."
+  },
+  "nav": {
+    "stories": "Historias",
+    "helpNeeded": "Ayuda",
+    "about": "Acerca de",
+    "home": "Inicio de Efecto Cocuyo",
+    "brandName": "EFECTO COCUYO"
+  },
+  "footer": {
+    "builtOn": "Construido en Polkadot",
+    "tagline": "Luces en la oscuridad."
+  },
+  "home": {
+    "hero": {
+      "title": "Luces en la Oscuridad",
+      "subtitle": "Una red resistente a la vigilancia para la inteligencia colectiva. Donde humanos verificados comparten, corroboran y construyen entendimiento — sin exponer sus identidades."
+    },
+    "cta": {
+      "howItWorks": "¿Cómo funciona?"
+    },
+    "preview": {
+      "title": "Publicaciones Recientes"
+    },
+    "whatIs": {
+      "title": "¿Qué es la Red Luciérnaga?",
+      "p1": "En el Caribe, los pueblos indígenas usaban cocuyos — escarabajos bioluminiscentes — como lámparas naturales para guiarse en la oscuridad. Un solo cocuyo no ilumina un camino. Pero millones de pequeñas chispas, juntas, pueden iluminar una nación entera.",
+      "p2": "La Red Luciérnaga no es una plataforma de redes sociales. Es una red de inteligencia colectiva donde cada participante es sensor y analista, donde la información se propaga a través de la corroboración en lugar de la amplificación, y donde el valor de una contribución está determinado por el peso criptográfico de la verificación humana — no por algoritmos o métricas de engagement.",
+      "p3": "Aquí, no eres un usuario. Eres una luciérnaga — un ser humano verificado que contribuye luz al entendimiento colectivo."
+    },
+    "howItWorks": {
+      "title": "Cómo Funciona",
+      "illuminate": {
+        "title": "Iluminar",
+        "description": "Comparte lo que observas. Una publicación es una observación, una pieza de evidencia, un dato. Cada publicación está firmada por tu credencial anónima, demostrando que un humano verificado la creó."
+      },
+      "corroborate": {
+        "title": "Corroborar",
+        "description": "Verifica lo que otros comparten. La corroboración no es un \"me gusta\" — es un acto respaldado por tu reputación. Cuando corroboras, estás poniendo tu reputación acumulada detrás de tu evaluación."
+      },
+      "connect": {
+        "title": "Conectar",
+        "description": "Las publicaciones se enlazan en cadenas de historia — estructuras emergentes que se forman cuando las luciérnagas conectan sus observaciones. La cadena se vuelve más fuerte que cualquier publicación individual a través de la verificación distribuida."
+      }
+    },
+    "whatIsNot": {
+      "title": "Lo Que Esto No Es",
+      "noFollowers": "Sin conteo de seguidores. Sin perfiles. Sin celebridades. Las luciérnagas son anónimas.",
+      "noScroll": "Sin scroll infinito. Sin feed algorítmico. Sin optimización de engagement.",
+      "noLikes": "Sin likes, reacciones o compartidos. La información se propaga a través de la corroboración, no la amplificación.",
+      "noTracking": "Sin recolección de datos. Sin rastreo. Sin vigilancia. No recolectamos lo que no podemos ser forzados a revelar."
+    },
+    "polkadot": {
+      "title": "Construido en Polkadot",
+      "description": "La Red Luciérnaga está construida en y para el ecosistema Polkadot — aprovechando la identidad descentralizada, el almacenamiento resistente a la censura y la interoperabilidad entre cadenas. Sin punto único de fallo. Sin punto único de control.",
+      "learnMore": "Aprende más sobre Polkadot"
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "Acerca de la Red",
+      "subtitle": "Millones de pequeñas chispas pueden iluminar una nación entera."
+    },
+    "fireflyPrinciple": {
+      "title": "El Principio de la Luciérnaga",
+      "p1": "En el Caribe, los pueblos indígenas usaban cocuyos — escarabajos bioluminiscentes — como lámparas naturales para guiarse en la oscuridad. Un solo cocuyo apenas emite luz suficiente para ver tu propia mano. Pero reúnelos, y se convierten en algo más.",
+      "p2": "Este es el principio detrás de la Red Luciérnaga: ningún observador individual ve el panorama completo. Pero cuando humanos verificados comparten lo que observan, corroboran lo que otros ven, y conectan sus publicaciones en cadenas de evidencia — la oscuridad comienza a disiparse.",
+      "p3": "Nos inspiramos en Efecto Cocuyo, una plataforma de medios independientes venezolana fundada en 2015 por periodistas que se negaron a dejar que la censura gubernamental silenciara la verdad. Demostraron que el periodismo comunitario podía sobrevivir y prosperar incluso bajo condiciones autoritarias. La imagen de la luciérnaga resonó porque habla de algo universal: pequeñas luces que juntas iluminan la oscuridad."
+    },
+    "howItWorks": {
+      "title": "Cómo Funciona",
+      "posts": {
+        "title": "Publicaciones",
+        "description": "Una publicación es una observación, una pieza de evidencia, un testimonio, un dato. Cuando iluminas una publicación, estás contribuyendo una pieza discreta de información — firmada por tu credencial anónima, etiquetada con contexto opcional (tema, ubicación, período de tiempo), y lista para conectarse con otras publicaciones."
+      },
+      "corroboration": {
+        "title": "Corroboración",
+        "description": "La corroboración no es un \"me gusta\". Es un acto de verificación respaldado por tu reputación. Cuando corroboras una publicación, estás haciendo una afirmación específica: \"Puedo confirmar esto de manera independiente\", o \"Tengo evidencia adicional\", o \"Esto es consistente con mi experiencia\". Tu corroboración se registra permanentemente, ponderada por tu reputación en el dominio relevante. Si la publicación es posteriormente desmentida, tu reputación disminuye."
+      },
+      "storyChains": {
+        "title": "Cadenas de Historia",
+        "description": "Las cadenas de historia son estructuras emergentes. Nadie \"crea\" una cadena — las cadenas cristalizan cuando las luciérnagas enlazan sus publicaciones a observaciones relacionadas. Una cadena sobre calidad del agua podría comenzar con una persona notando un olor, crecer cuando otros corroboran y añaden fotos, y fortalecerse cuando alguien contribuye registros públicos sobre permisos. La cadena se convierte en más que la suma de sus publicaciones."
+      },
+      "verificationTrails": {
+        "title": "Rastros de Verificación",
+        "description": "Cada cadena lleva un rastro de verificación transparente — el historial completo de publicaciones, corroboraciones, cuestionamientos y evidencia. No necesitas confiar en nosotros para saber que algo está verificado. Puedes rastrear el camino tú mismo y ver exactamente cuántos humanos independientes, con qué reputación, hicieron qué afirmaciones."
+      },
+      "campaigns": {
+        "title": "Campañas",
+        "description": "Las campañas son esfuerzos de verificación patrocinados. Medios de comunicación, colectivos o miembros de la comunidad financian una solicitud de información específica — y las luciérnagas que contribuyen evidencia valiosa ganan una parte de la recompensa. Los fondos se mantienen en custodia hasta que se cumplan los entregables. Los pagos pueden ser públicos (pUSD) o privados (Coinage) para proteger la identidad del contribuyente. Esto crea un mercado funcional para el periodismo de investigación."
+      }
+    },
+    "surveillanceResistance": {
+      "title": "Resistencia a la Vigilancia",
+      "intro": "La red está diseñada para que ningún punto único de compromiso — ninguna confiscación de servidor, ninguna citación, ninguna amenaza interna — pueda exponer la identidad de cualquier luciérnaga o eliminar cualquier publicación de la red.",
+      "noUserDatabase": "Sin base de datos de usuarios. Las credenciales DIM se generan a través de prueba de humanidad y las guardas tú. No hay un registro central de participantes.",
+      "noContentServer": "Sin servidor de contenido. Las publicaciones se almacenan en infraestructura descentralizada. No hay un servidor único que confiscar.",
+      "noMetadata": "Sin recolección de metadatos. No registramos direcciones IP, huellas digitales de dispositivos, ni patrones de acceso.",
+      "noCookies": "Sin cookies. Ninguna. Cero. No recolectamos lo que no podemos ser forzados a revelar."
+    },
+    "builtOnPolkadot": {
+      "title": "Construido en Polkadot",
+      "intro": "La Red Luciérnaga está construida en y para el ecosistema Polkadot. Elegimos Polkadot porque sus valores se alinean con los nuestros: descentralización, interoperabilidad y soberanía del usuario."
+    },
+    "openSource": {
+      "title": "Código Abierto",
+      "description": "Todo el código es de código abierto. Toda la gobernanza es pública. Todos los rastros de verificación son auditables. La transparencia no es opcional — es fundamental.",
+      "viewOnGitHub": "Ver en GitHub"
+    }
+  },
+  "explore": {
+    "breadcrumbExplore": "Explorar",
+    "breadcrumbHome": "Inicio",
+    "chainEyebrow": "Cadena de relatos",
+    "clearSearch": "Borrar búsqueda",
+    "corroborations": "corroboraciones",
+    "emptyAction": "Enciende una señal",
+    "emptySearchDesc": "Prueba otro tema o borra la búsqueda para ver más de la red.",
+    "emptySearchTitle": "Nada coincide con tu búsqueda",
+    "emptyTopicDesc": "Sé el primero en iluminar este rincón de la red. Comparte una observación y deja que otras luciérnagas la corroboren.",
+    "emptyTopicTitle": "Aún no hay nada aquí",
+    "eyebrow": "Inteligencia colectiva · En vivo",
+    "heading": "Explora la red",
+    "railCollectives": "Colectivos activos",
+    "railIlluminateCta": "Ilumina una señal",
+    "railNoVanityBody": "Las señales ascienden por la corroboración de humanos verificados, no por clics. Ese es todo el propósito.",
+    "railNoVanityInfoBody": "La Red Luciérnaga ordena la información por el peso criptográfico de la corroboración humana, no por popularidad. No hay me gusta, ni recuentos de seguidores, ni métricas de interacción que manipular.",
+    "railNoVanityInfoTitle": "¿Por qué no hay me gusta ni seguidores?",
+    "railNoVanityTitle": "Aquí no hay métricas de vanidad",
+    "railTrending": "Cadenas en tendencia",
+    "searchPlaceholder": "Buscar señales, afirmaciones y cadenas…",
+    "sortAwaiting": "Pendientes de verificación",
+    "sortCorroborated": "Más corroboradas",
+    "sortLabel": "Ordenar",
+    "sortRecent": "Más recientes",
+    "statChains": "Cadenas de relatos",
+    "statClaims": "Afirmaciones verificadas",
+    "statCollectives": "Colectivos",
+    "statSignals": "Señales activas",
+    "subheading": "Explora señales, afirmaciones y cadenas de relatos en toda la red. Ordenadas por peso de corroboración, nunca por popularidad.",
+    "tabChains": "Cadenas de relatos",
+    "tabClaims": "Afirmaciones",
+    "tabSignals": "Señales",
+    "topicAll": "Todos",
+    "topicsLabel": "Temas",
+    "typeChains": "cadenas de relatos",
+    "typeClaims": "afirmaciones",
+    "typeSignals": "señales",
+    "updated": "actualizado",
+    "verifications": "verificaciones",
+    "claimsErrorTitle": "No se pudieron cargar las afirmaciones",
+    "claimsErrorDesc": "Algo salió mal al cargar las afirmaciones. Inténtalo de nuevo en un momento."
+  },
+  "chain": {
+    "backToStories": "Historias",
+    "storyChain": "Historia",
+    "verificationSummary": "Resumen de Verificación",
+    "posts": "Publicaciones",
+    "corroborations": "Corroboraciones",
+    "challenges": "Desafíos",
+    "contributors": "Contribuidores",
+    "weight": "Peso",
+    "chainStarted": "Historia iniciada",
+    "addPostCta": "¿Tienes información para agregar a esta historia?",
+    "verificationTrail": "Rastro de Verificación",
+    "noPosts": "No hay publicaciones en esta historia aún.",
+    "beFirstToIlluminate": "Sé el Primero en Iluminar",
+    "tabs": {
+      "whatsHappening": "Qué Pasa",
+      "deepDives": "Análisis",
+      "helpNeeded": "Ayuda"
+    },
+    "whatsHappening": {
+      "title": "Publicaciones Recientes",
+      "description": "Observaciones desde la red",
+      "noPosts": "No hay publicaciones aún. Sé el primero en iluminar."
+    },
+    "deepDives": {
+      "title": "Análisis e Informes",
+      "description": "Investigaciones y contexto a profundidad",
+      "noPosts": "No hay publicaciones de análisis para esta historia aún."
+    },
+    "helpNeeded": {
+      "title": "Campañas Activas",
+      "description": "Esfuerzos de verificación patrocinados",
+      "noCampaigns": "No hay campañas activas para esta historia.",
+      "createCampaign": "Crear Campaña"
+    }
+  },
+  "feed": {
+    "title": "Tu Feed",
+    "following": "Siguiendo",
+    "discover": "Descubrir",
+    "setupPrompt": "Completa la configuración de tu perfil para ver publicaciones de los temas que sigues.",
+    "completeSetup": "Completar Configuración",
+    "noMatchingPosts": "Aún no hay publicaciones que coincidan con tus temas seguidos.",
+    "tryFollowingMore": "Intenta seguir más temas en la configuración de tu perfil.",
+    "noPostsYet": "Aún no hay publicaciones. Sé el primero en iluminar."
+  },
+  "verify": {
+    "title": "Verifica Tu Identidad",
+    "subtitle": "Completa la verificación DIM para desbloquear la participación completa en la Red Firefly. Anónimo pero humano — verificamos que eres real sin revelar quién eres.",
+    "steps": {
+      "eligibility": "Elegibilidad",
+      "sign": "Firmar",
+      "pending": "Pendiente",
+      "success": "Éxito"
+    },
+    "eligibility": {
+      "title": "Verificar Elegibilidad",
+      "description": "Estamos verificando si tu cuenta está lista para la verificación.",
+      "checking": "Verificando elegibilidad...",
+      "eligible": "Eres elegible para verificación",
+      "notEligible": "No elegible para verificación",
+      "alreadyVerified": "Ya Verificado",
+      "reason": "Razón"
+    },
+    "sign": {
+      "title": "Firmar Mensaje de Verificación",
+      "description": "Firma un mensaje con tu billetera para demostrar la propiedad de tu cuenta. Esto no transfiere fondos.",
+      "message": "Mensaje a Firmar",
+      "button": "Firmar Mensaje",
+      "pending": "Firmando...",
+      "unavailableTitle": "La verificación aún no está disponible",
+      "unavailableDescription": "Tu billetera firmó el mensaje de verificación correctamente, pero la prueba de personalidad en cadena todavía no puede completarse. Para completarla se necesita el servicio verificador de atestación — una cuenta autorizada para registrarte en la cadena People — que no está conectado en este entorno.",
+      "signatureCaptured": "Firma capturada"
+    },
+    "pending": {
+      "title": "Verificación en Progreso",
+      "description": "Tu verificación se está procesando en la cadena. Esto puede tardar unos momentos.",
+      "waiting": "Esperando confirmación",
+      "note": "Esta página se actualizará automáticamente cuando tu verificación esté completa. Puedes cerrar esta página con seguridad y volver más tarde."
+    },
+    "success": {
+      "title": "Verificación Completa",
+      "description": "¡Felicidades! Ahora eres un firefly verificado. Tu credencial anónima demuestra que eres humano sin revelar quién eres.",
+      "level": "Nivel de Verificación",
+      "capabilities": "Capacidades Desbloqueadas",
+      "goToDashboard": "Ir al Panel",
+      "explore": "Explorar Posts"
+    },
+    "capabilities": {
+      "illuminate": "Iluminar posts",
+      "corroborate": "Corroborar observaciones",
+      "challenge": "Desafiar afirmaciones",
+      "fundBounty": "Financiar recompensas",
+      "claimPayout": "Reclamar pagos",
+      "receiveCoinage": "Recibir pagos privados"
+    },
+    "nav": {
+      "back": "Atrás",
+      "next": "Continuar",
+      "cancel": "Cancelar"
+    },
+    "errors": {
+      "walletNotConnected": "Por favor conecta tu billetera para continuar.",
+      "signingFailed": "Error al firmar mensaje. Por favor intenta de nuevo.",
+      "attestationFailed": "Verificación fallida. Por favor intenta más tarde.",
+      "unknown": "Ocurrió un error inesperado."
+    },
+    "whatIs": {
+      "title": "¿Qué es la Verificación DIM?",
+      "description": "DIM (Mecanismo de Identidad Descentralizado) es un sistema de prueba de personería que preserva la privacidad. Verifica que eres un ser humano real sin recopilar ni revelar ninguna información personal.",
+      "benefit1": "Demuestra que eres humano sin revelar tu identidad",
+      "benefit2": "Desbloquea la participación completa en la red",
+      "benefit3": "Construye reputación vinculada a ti, no a tu nombre",
+      "privacy": "Tu verificación se almacena en la cadena usando criptografía ring VRF. Esto significa que tu identidad nunca puede vincularse a tus actividades, ni siquiera por nosotros. Permaneces anónimo mientras eres demostrablemente humano."
+    }
+  },
+  "collectives": {
+    "title": "Colectivos",
+    "description": "Grupos de verificación de hechos que verifican publicaciones colaborativamente",
+    "createCollective": "Crear Colectivo",
+    "members": "miembros",
+    "verifications": "verificaciones",
+    "reputation": "reputación",
+    "backToExplore": "Volver a Explorar",
+    "collective": "Colectivo",
+    "notFoundTitle": "Colectivo no encontrado",
+    "notFoundBody": "Este colectivo no existe o aún no ha sido creado.",
+    "exploreCta": "Explorar historias",
+    "reputationTitle": "Reputación",
+    "reputationScore": "Puntuación",
+    "accuracyRate": "Precisión",
+    "verificationsLabel": "Verificaciones",
+    "avgResponseTime": "Respuesta prom.",
+    "membersLabel": "Miembros",
+    "hours": "horas",
+    "founded": "Fundado",
+    "lastActive": "Última actividad",
+    "governance": "Gobernanza",
+    "minVotesForVerdict": "Votos para finalizar",
+    "verdictThreshold": "Acuerdo requerido",
+    "membership": "Membresía",
+    "membershipOpen": "Abierto a todos",
+    "membershipVote": "Por voto de miembros",
+    "membershipInvite": "Solo por invitación"
+  },
+  "common": {
+    "loading": "Cargando...",
+    "justNow": "ahora mismo",
+    "minutesAgo": "hace {count}m",
+    "hoursAgo": "hace {count}h",
+    "daysAgo": "hace {count}d",
+    "weeksAgo": "hace {count}sem",
+    "comingSoon": "Próximamente"
+  },
+  "actions": {
+    "illuminate": "Iluminar",
+    "corroborate": "Corroborar",
+    "challenge": "Cuestionar",
+    "earn": "Gana"
+  },
+  "status": {
+    "active": "activo",
+    "established": "establecido",
+    "emerging": "emergente",
+    "contested": "cuestionado",
+    "pending": "pendiente",
+    "inReview": "en revisión"
+  },
+  "campaigns": {
+    "title": "Campañas",
+    "description": "Esfuerzos de verificación patrocinados por medios y colectivos. Contribuye evidencia para construir la verdad.",
+    "createButton": "Crear Campaña",
+    "allCampaigns": "Todas",
+    "filters": "Filtros",
+    "status": "Estado",
+    "statusActive": "Activa",
+    "statusCompleted": "Completada",
+    "statusExpired": "Expirada",
+    "statusCancelled": "Cancelada",
+    "campaignWord": "campaña",
+    "campaignsWord": "campañas",
+    "ofWord": "de",
+    "clearFilters": "Limpiar filtros",
+    "statusLabel": "Estado",
+    "filterByTopic": "Filtrar por Tema",
+    "searchPlaceholder": "Buscar campañas...",
+    "topicSelected": "tema",
+    "topicsSelected": "temas",
+    "topics": {
+      "label": "Temas",
+      "crisis": "Crisis",
+      "detention": "Detención",
+      "disinformation": "Desinformación",
+      "documentation": "Documentación",
+      "economy": "Economía",
+      "finance": "Finanzas",
+      "food-security": "Seguridad Alimentaria",
+      "governance": "Gobernanza",
+      "health": "Salud",
+      "human-rights": "Derechos Humanos",
+      "inflation": "Inflación",
+      "infrastructure": "Infraestructura",
+      "media": "Medios",
+      "politics": "Política",
+      "press-freedom": "Libertad de Prensa",
+      "public-records": "Registros Públicos",
+      "public-services": "Servicios Públicos",
+      "transparency": "Transparencia",
+      "venezuela": "Venezuela"
+    },
+    "info": {
+      "title": "¿Qué son las Campañas?",
+      "body": "Las campañas son esfuerzos de verificación de hechos patrocinados por medios de comunicación, colectivos de verificadores, u organizaciones comunitarias.\n\nCuando contribuyes señales valiosas — testimonios de testigos, documentos verificados, o fuentes confirmadas — ayudas a construir un registro basado en evidencia.\n\nLas campañas crean incentivos para la verificación de hechos comunitaria, financiadas por las organizaciones que necesitan la verdad."
+    }
+  },
+  "campaign": {
+    "breadcrumb": {
+      "campaigns": "Campañas",
+      "detail": "Detalles de la Campaña"
+    },
+    "funding": "Financiamiento",
+    "payoutMode": "Modo de Pago",
+    "expires": "Expira",
+    "expired": "Expirada",
+    "expiresSoon": "Expira pronto",
+    "hoursLeftSuffix": "h restantes",
+    "dayLeft": "1 día restante",
+    "daysLeftSuffix": "días restantes",
+    "contributingPosts": "Publicaciones Contribuyentes",
+    "noPostsYet": "Ninguna publicación ha contribuido a esta campaña aún.",
+    "postWord": "publicación",
+    "postsWord": "publicaciones",
+    "illuminate": "Iluminar",
+    "completed": "Esta campaña ha sido completada",
+    "cancelled": "Esta campaña fue cancelada",
+    "topics": "Temas",
+    "location": "Ubicación",
+    "description": "Qué estamos verificando",
+    "paymentPublic": "pUSD Público",
+    "paymentPrivate": "Privado",
+    "whatsThis": "¿Qué es esto?",
+    "posted": "Publicado",
+    "sponsor": "Patrocinador",
+    "deliverables": "Entregables",
+    "progress": "Progreso",
+    "deliverableTypes": {
+      "evidence_gathered": "Evidencia Recopilada",
+      "sources_verified": "Fuentes Verificadas",
+      "verdict_issued": "Veredicto Emitido",
+      "story_published": "Historia Publicada"
+    }
+  },
+  "corroboration": {
+    "modal": {
+      "title": "Corroborar Publicación",
+      "stakingWarning": "Estás apostando tu reputación en esta corroboración.",
+      "noteLabel": "Agregar una nota (opcional)",
+      "notePlaceholder": "Explica tu corroboración...",
+      "cancel": "Cancelar",
+      "submitChallenge": "Enviar Objeción",
+      "corroborate": "Corroborar"
+    },
+    "types": {
+      "witness": "Testigo",
+      "witnessDesc": "Puedo confirmar independientemente esta observación.",
+      "evidence": "Evidencia",
+      "evidenceDesc": "Tengo documentación adicional que apoya esto.",
+      "expertise": "Experiencia",
+      "expertiseDesc": "Esto es consistente con mi conocimiento en este dominio.",
+      "challenge": "Objeción",
+      "challengeDesc": "Tengo razones para creer que esto es inexacto."
+    },
+    "referencedLinks": "Enlaces referenciados:",
+    "source": "Fuente",
+    "evidence": "Evidencia"
+  },
+  "post": {
+    "topics": "Temas:",
+    "location": "Ubicación:",
+    "illuminated": "Iluminado:",
+    "corroborations": "Corroboraciones",
+    "witnesses": "Testigos",
+    "evidence": "Evidencia",
+    "expert": "Experto",
+    "challenges": "Objeciones",
+    "totalWeight": "Peso total:",
+    "partOfChains": "Parte de Cadenas de Historias",
+    "addCorroboration": "Agregar Corroboración",
+    "submitChallenge": "Enviar Objeción",
+    "typeLabel": "Tipo",
+    "noteOptional": "Nota (opcional)",
+    "reasonForChallenge": "Razón de la objeción",
+    "notePlaceholder": "Agrega contexto o detalles...",
+    "challengePlaceholder": "Explica por qué esto es inexacto...",
+    "setupRequired": "Completa la configuración de tu perfil para {action} publicaciones."
+  },
+  "posts": {
+    "title": "Publicaciones",
+    "description": "Observaciones, evidencia e investigaciones de la red.",
+    "allPosts": "Todas",
+    "filterByTopic": "Filtrar por Tema",
+    "searchPlaceholder": "Buscar publicaciones...",
+    "topicSelected": "tema",
+    "topicsSelected": "temas",
+    "postWord": "publicación",
+    "postsWord": "publicaciones",
+    "ofWord": "de",
+    "clearFilters": "Limpiar filtros",
+    "corroborationWord": "corroboración",
+    "corroborationsWord": "corroboraciones",
+    "challengeWord": "cuestionamiento",
+    "challengesWord": "cuestionamientos",
+    "readMore": "Leer más",
+    "backToPosts": "Volver a Publicaciones",
+    "sources": "Fuentes",
+    "relatedPosts": "Publicaciones Relacionadas",
+    "corroborate": "Corroborar",
+    "dispute": "Disputar",
+    "viewTrust": "Ver Confianza",
+    "addToStory": "Añadir a Historia",
+    "extractClaim": "Extraer Afirmación",
+    "extracting": "Extrayendo...",
+    "viewDetails": "Ver detalles",
+    "topics": {
+      "crisis": "Crisis",
+      "daily-life": "Vida Cotidiana",
+      "data": "Datos",
+      "disinformation": "Desinformación",
+      "economy": "Economía",
+      "food-security": "Seguridad Alimentaria",
+      "governance": "Gobernanza",
+      "health": "Salud",
+      "inflation": "Inflación",
+      "infrastructure": "Infraestructura",
+      "media": "Medios",
+      "medication": "Medicamentos",
+      "politics": "Política",
+      "social-media": "Redes Sociales",
+      "transparency": "Transparencia",
+      "venezuela": "Venezuela",
+      "wages": "Salarios"
+    }
+  },
+  "claims": {
+    "title": "Afirmaciones",
+    "description": "Afirmaciones verificables extraídas de publicaciones de la comunidad.",
+    "extractedClaims": "Afirmaciones Extraídas",
+    "supporting": "a favor",
+    "contradicting": "en contra",
+    "evidence": "evidencia",
+    "viewClaim": "Ver afirmación",
+    "backToPost": "Volver a Publicación",
+    "statusPending": "Pendiente",
+    "statusUnderReview": "En Revisión",
+    "statusVerified": "Verificada",
+    "statusDisputed": "Disputada",
+    "statusFalse": "Falsa",
+    "statusUnverifiable": "No Verificable",
+    "verdict": "Veredicto",
+    "issuedOn": "Emitido el",
+    "extractedFrom": "Extraída de",
+    "supportingEvidence": "Evidencia de Apoyo",
+    "contradictingEvidence": "Evidencia Contradictoria",
+    "noSupportingEvidence": "Aún no se ha presentado evidencia de apoyo.",
+    "noContradictingEvidence": "No se ha presentado evidencia contradictoria.",
+    "extractClaim": "Extraer una Afirmación",
+    "extracting": "Extrayendo...",
+    "claimExtracted": "¡Afirmación extraída exitosamente!",
+    "noClaimFound": "No se encontró ninguna afirmación verificable en esta publicación",
+    "extractionFailed": "La extracción por IA falló. Por favor, intenta de nuevo.",
+    "extractionUnavailable": "La extracción de afirmaciones no está disponible en este despliegue.",
+    "claimSaveFailed": "No se pudo guardar la afirmación en la cadena. Por favor, intenta de nuevo.",
+    "extractedClaimTitle": "Afirmación Extraída",
+    "extractedClaimSaved": "Guardada en la cadena.",
+    "close": "Cerrar",
+    "submitEvidence": "Presentar Evidencia",
+    "signInToSubmit": "Inicia sesión para presentar evidencia",
+    "evidenceSubmitted": "¡Evidencia presentada exitosamente!",
+    "supportThisClaim": "Apoyar esta afirmación",
+    "contradictThisClaim": "Contradecir esta afirmación",
+    "collectiveVerification": "Verificación colectiva",
+    "noActiveProposals": "No hay propuestas activas para esta afirmación",
+    "createProposal": "Nueva propuesta",
+    "castYourVote": "Emite tu voto:",
+    "alreadyVoted": "Ya has votado en esta propuesta",
+    "joinCollectiveToVote": "Únete a un colectivo para participar en la votación del veredicto",
+    "connectToVote": "Conecta tu billetera para participar en la votación del veredicto",
+    "loading": "Cargando..."
+  },
+  "workbench": {
+    "title": "Mesa de Verificación",
+    "description": "Revisar afirmaciones pendientes y enviar veredictos. Se requiere membresía en colectivo.",
+    "allClaims": "Todas",
+    "filterByTopic": "Filtrar por Tema",
+    "filterByStatus": "Filtrar por Estado",
+    "searchPlaceholder": "Buscar afirmaciones...",
+    "topicSelected": "tema",
+    "topicsSelected": "temas",
+    "claimWord": "afirmación",
+    "claimsWord": "afirmaciones",
+    "ofWord": "de",
+    "clearFilters": "Limpiar filtros",
+    "noClaims": "Sin afirmaciones pendientes",
+    "noClaimsDescription": "Todas las afirmaciones han sido revisadas. Vuelve más tarde para nuevas presentaciones.",
+    "accessRequired": "Se Requiere Inicio de Sesión",
+    "accessDescription": "Inicia sesión para acceder a la mesa de verificación. Se requiere membresía en colectivo para enviar veredictos."
+  },
+  "profile": {
+    "title": "Tu Perfil",
+    "description": "Tu panel de reputación privado y contribuciones.",
+    "signInRequired": "Se Requiere Inicio de Sesión",
+    "signInDescription": "Inicia sesión para ver tu perfil y reputación.",
+    "reputation": "Reputación",
+    "overallScore": "Puntuación General",
+    "topicScores": "Reputación por Tema",
+    "contributions": "Contribuciones",
+    "posts": "Publicaciones",
+    "corroborations": "Corroboraciones",
+    "challenges": "Cuestionamientos",
+    "noActivity": "Aún no tienes actividad. ¡Comienza iluminando una publicación!",
+    "loadError": "Error al cargar perfil",
+    "retry": "Intentar de Nuevo"
+  },
+  "publicProfile": {
+    "title": "Perfil de Luciérnaga",
+    "backToExplore": "Volver a Historias",
+    "memberSince": "Miembro desde",
+    "noCollectives": "No es miembro de ningún colectivo",
+    "noPosts": "Sin publicaciones aún",
+    "posts": "Publicaciones",
+    "corroborations": "Corroboraciones",
+    "reputation": "Reputación",
+    "collectives": "Colectivos",
+    "recentPosts": "Publicaciones Recientes",
+    "notFound": "Perfil No Encontrado",
+    "notFoundDescription": "Este perfil no existe o ha sido eliminado.",
+    "personhood": {
+      "full": "Verificado",
+      "lite": "Lite",
+      "none": "No Verificado"
+    },
+    "factChecker": {
+      "verified": "Verificador de Hechos",
+      "suspended": "Suspendido"
+    }
+  },
+  "profileEdit": {
+    "editProfile": "Editar Perfil",
+    "save": "Guardar",
+    "saving": "Guardando...",
+    "cancel": "Cancelar",
+    "pseudonym": "Pseudónimo",
+    "pseudonymHint": "Tu nombre público",
+    "displayName": "Nombre para Mostrar",
+    "displayNameHint": "Nombre real u organización (opcional)",
+    "location": "Ubicación",
+    "locationHint": "Ciudad, región o área general",
+    "bio": "Biografía",
+    "bioHint": "Una breve descripción sobre ti",
+    "disclosureLevel": "Nivel de Privacidad",
+    "anonymous": "Anónimo",
+    "anonymousDesc": "Solo tu pseudónimo es visible",
+    "partial": "Parcial",
+    "partialDesc": "Pseudónimo y ubicación son visibles",
+    "public": "Público",
+    "publicDesc": "Nombre, ubicación y biografía son visibles",
+    "saved": "Perfil guardado",
+    "saveFailed": "Error al guardar perfil",
+    "collectives": "Colectivos",
+    "noCollectives": "No es miembro de ningún colectivo",
+    "personhood": {
+      "full": "Verificado",
+      "lite": "Lite",
+      "none": "No Verificado"
+    },
+    "factChecker": {
+      "verified": "Verificador de Hechos",
+      "suspended": "Suspendido"
+    }
+  },
+  "emptyStates": {
+    "posts": {
+      "title": "Aún no hay publicaciones",
+      "description": "No se ha compartido análisis de formato largo todavía. Vuelve pronto.",
+      "filtered": {
+        "title": "No hay publicaciones coincidentes",
+        "description": "Ninguna publicación coincide con tus filtros actuales."
+      }
+    },
+    "campaigns": {
+      "title": "Aún no hay campañas",
+      "description": "No se han creado campañas de verificación todavía. Vuelve pronto.",
+      "filtered": {
+        "title": "No hay campañas coincidentes",
+        "description": "Intenta ajustar tus filtros para encontrar campañas."
+      }
+    },
+    "chains": {
+      "title": "Aún no hay historias",
+      "description": "Las historias emergen cuando las luciérnagas conectan sus publicaciones. Sé el primero en iluminar.",
+      "filtered": {
+        "title": "No hay historias coincidentes",
+        "description": "Ninguna historia coincide con tus filtros actuales."
+      }
+    },
+    "claims": {
+      "title": "Aún no hay afirmaciones",
+      "description": "No se han extraído afirmaciones verificables todavía.",
+      "filtered": {
+        "title": "No hay afirmaciones coincidentes",
+        "description": "Ninguna afirmación coincide con tus filtros actuales."
+      }
+    },
+    "workbench": {
+      "title": "No hay afirmaciones para revisar",
+      "description": "Todas las afirmaciones han sido procesadas. Vuelve más tarde para nuevas presentaciones."
+    },
+    "profile": {
+      "title": "Aún no hay contribuciones",
+      "description": "Comienza a iluminar publicaciones y corroborar para construir tu reputación."
+    },
+    "seedRequired": {
+      "title": "No hay datos cargados",
+      "description": "Ejecuta 'pnpm seed:dev' para cargar datos de desarrollo.",
+      "hint": "Este es un entorno de desarrollo."
+    }
+  },
+  "join": {
+    "title": "Únete a la Alianza Luciérnaga",
+    "subtitle": "Contribuye al periodismo independiente y forma parte de un colectivo que financia la libertad de prensa en todo el mundo.",
+    "steps": {
+      "personhood": "Verificar",
+      "amount": "Cantidad",
+      "confirm": "Confirmar"
+    },
+    "personhood": {
+      "title": "Verifica Tu Identidad",
+      "description": "La verificación de humanidad ayuda a garantizar una persona, un voto en las decisiones de gobernanza. La verificación es anónima — nunca vemos tus datos personales.",
+      "verified": "Identidad Verificada",
+      "verify": "Verificar con DIM",
+      "skip": "Saltar por Ahora",
+      "skipNote": "Puedes verificar más tarde, pero los contribuyentes no verificados tienen peso de gobernanza reducido."
+    },
+    "amount": {
+      "title": "Elige Tu Contribución",
+      "description": "Selecciona cuánto te gustaría contribuir. Tu contribución determina tu nivel y peso de gobernanza en la Alianza.",
+      "label": "Cantidad de Contribución",
+      "minimum": "Contribución mínima: $5 pUSD",
+      "custom": "Ingresar cantidad personalizada",
+      "placeholder": "Ingresa cantidad"
+    },
+    "confirm": {
+      "title": "Confirma Tu Contribución",
+      "description": "Revisa los detalles de tu contribución antes de confirmar. Esta transacción se registrará en la blockchain.",
+      "amount": "Cantidad",
+      "tier": "Nivel",
+      "shares": "Acciones Estimadas",
+      "note": "Las acciones se calculan al precio actual del pool. Las acciones recibidas pueden variar ligeramente.",
+      "cooldownWarning": "Los retiros tienen un período de espera de 30 días. Después de solicitar un retiro, debes esperar 30 días antes de completarlo.",
+      "button": "Confirmar Contribución",
+      "confirming": "Confirmando..."
+    },
+    "tiers": {
+      "none": "Sin Nivel",
+      "spark": "Chispa",
+      "flame": "Llama",
+      "beacon": "Faro",
+      "lighthouse": "Faro Mayor",
+      "sparkDesc": "Apoyo de nivel inicial. Participación básica en gobernanza.",
+      "flameDesc": "Contribuyente activo. Peso de gobernanza mejorado.",
+      "beaconDesc": "Apoyo significativo. Fuerte influencia en gobernanza.",
+      "lighthouseDesc": "Gran mecenas. Máximo peso de gobernanza y reconocimiento."
+    },
+    "nav": {
+      "back": "Atrás",
+      "next": "Continuar",
+      "cancel": "Cancelar"
+    },
+    "errors": {
+      "belowMinimum": "La contribución debe ser de al menos $5 pUSD.",
+      "invalidAmount": "Por favor ingresa una cantidad válida.",
+      "walletNotConnected": "Por favor conecta tu billetera para continuar.",
+      "transactionFailed": "La transacción falló. Por favor intenta de nuevo."
+    },
+    "benefits": {
+      "title": "Beneficios de la Alianza",
+      "governance": "Vota en decisiones de financiamiento y asignaciones",
+      "rewards": "Gana rendimientos del tesoro colectivo",
+      "recognition": "Insignias de nivel en tu perfil",
+      "impact": "Financia directamente periodismo independiente"
+    },
+    "welcome": {
+      "title": "Bienvenido a la Alianza",
+      "subtitle": "Tu contribución ha sido confirmada. Ahora eres parte de un movimiento global que financia periodismo independiente.",
+      "whatsNext": "Próximos Pasos",
+      "step1": "Ve tu posición y nivel en tu Panel",
+      "step2": "Explora el Tesoro para ver cómo se distribuyen los fondos",
+      "step3": "Participa en decisiones de gobernanza cuando las propuestas estén disponibles",
+      "goToDashboard": "Ir al Panel",
+      "viewTreasury": "Ver Tesoro"
+    }
+  },
+  "dashboard": {
+    "title": "Panel del Contribuyente",
+    "description": "Gestiona tu posición en la Alianza, ve recompensas y rastrea tu impacto.",
+    "signInRequired": "Se Requiere Inicio de Sesión",
+    "signInDescription": "Conecta tu billetera para ver tu panel de contribuyente.",
+    "position": {
+      "title": "Tu Posición",
+      "shares": "Acciones",
+      "value": "Valor Actual",
+      "contributed": "Total Contribuido",
+      "tier": "Nivel"
+    },
+    "actions": {
+      "contribute": "Contribuir Más",
+      "withdraw": "Solicitar Retiro"
+    },
+    "withdrawals": {
+      "title": "Retiros Pendientes",
+      "noWithdrawals": "No hay solicitudes de retiro pendientes.",
+      "status": "Estado",
+      "shares": "Acciones",
+      "requestedAt": "Solicitado",
+      "availableAt": "Disponible",
+      "complete": "Completar",
+      "cancel": "Cancelar",
+      "daysRemaining": "{count} días restantes",
+      "hoursRemaining": "{count} horas restantes",
+      "ready": "Listo para completar"
+    },
+    "stats": {
+      "title": "Estadísticas del Pool",
+      "tvl": "Valor Total Bloqueado",
+      "contributors": "Contribuyentes",
+      "outlets": "Medios Financiados",
+      "distributed": "Total Distribuido"
+    },
+    "withdraw": {
+      "title": "Solicitar Retiro",
+      "description": "Ingresa el número de acciones que deseas retirar. Después de solicitar, debes esperar 30 días antes de completar el retiro.",
+      "sharesLabel": "Acciones a Retirar",
+      "availableShares": "Disponibles: {shares} acciones",
+      "estimatedValue": "Valor Estimado",
+      "cooldownNote": "Aplica período de espera de 30 días",
+      "submit": "Solicitar Retiro",
+      "submitting": "Solicitando...",
+      "cancel": "Cancelar"
+    },
+    "tierProgress": {
+      "currentTier": "Nivel Actual",
+      "nextTier": "Siguiente Nivel",
+      "amountToNext": "Contribuye {amount} más para alcanzar el siguiente nivel",
+      "maxTierReached": "¡Nivel máximo alcanzado!"
+    },
+    "history": {
+      "title": "Historial de Contribuciones",
+      "description": "Ve tu historial completo de contribuciones y retiros.",
+      "type": "Tipo",
+      "amount": "Cantidad",
+      "shares": "Acciones",
+      "date": "Fecha",
+      "txHash": "Transacción",
+      "contribution": "Contribución",
+      "withdrawal": "Retiro",
+      "noHistory": "Sin historial de transacciones aún."
+    },
+    "withdrawalsPage": {
+      "title": "Solicitudes de Retiro",
+      "description": "Administra tus solicitudes de retiro pendientes y completadas.",
+      "allWithdrawals": "Todos los Retiros",
+      "pending": "Pendientes",
+      "completed": "Completados",
+      "cancelled": "Cancelados",
+      "noWithdrawals": "Sin solicitudes de retiro aún."
+    }
+  },
+  "alliance": {
+    "title": "Alianza Luciérnaga",
+    "treasury": {
+      "title": "Tesoro de la Alianza",
+      "description": "Ve el tesoro colectivo que financia periodismo independiente en todo el mundo.",
+      "tvl": "Valor Total Bloqueado",
+      "contributors": "Contribuyentes",
+      "sharePrice": "Precio de Acción",
+      "outlets": {
+        "title": "Medios Financiados",
+        "description": "Organizaciones de noticias que reciben financiamiento del tesoro de la Alianza.",
+        "weight": "Peso",
+        "distributed": "Distribuido",
+        "noOutlets": "Aún no hay medios registrados."
+      },
+      "distributions": {
+        "title": "Historial de Distribuciones",
+        "description": "Distribuciones recientes de rendimientos a medios financiados.",
+        "amount": "Cantidad",
+        "date": "Fecha",
+        "noDistributions": "Aún no hay distribuciones."
+      },
+      "tiers": {
+        "title": "Niveles de Contribuyentes",
+        "spark": "Chispa",
+        "flame": "Llama",
+        "beacon": "Faro",
+        "lighthouse": "Faro Mayor"
+      }
+    },
+    "governance": {
+      "title": "Gobernanza",
+      "description": "Participa en la toma de decisiones de la Alianza a través de votación con snapshots.",
+      "overview": {
+        "title": "Resumen de Gobernanza",
+        "activeProposals": "Propuestas Activas",
+        "yourVotingPower": "Tu Poder de Voto",
+        "noActiveProposals": "No hay propuestas activas en este momento.",
+        "recentlyFinalized": "Finalizadas Recientemente",
+        "viewAll": "Ver Todas las Propuestas"
+      },
+      "proposals": {
+        "title": "Todas las Propuestas",
+        "create": "Crear Propuesta",
+        "noProposals": "Aún no hay propuestas. Sé el primero en crear una.",
+        "filterByType": "Filtrar por Tipo",
+        "filterByStatus": "Filtrar por Estado",
+        "searchPlaceholder": "Buscar propuestas...",
+        "proposalWord": "propuesta",
+        "proposalsWord": "propuestas",
+        "ofWord": "de",
+        "clearFilters": "Limpiar filtros"
+      },
+      "proposal": {
+        "title": "Detalles de la Propuesta",
+        "votingPeriod": "Período de Votación",
+        "quorum": "Quórum",
+        "threshold": "Umbral de Aprobación",
+        "castVote": "Emitir tu Voto",
+        "approve": "Aprobar",
+        "reject": "Rechazar",
+        "abstain": "Abstener",
+        "execute": "Ejecutar Propuesta",
+        "cancel": "Cancelar Propuesta",
+        "proposedBy": "Propuesto por",
+        "yourVote": "Tu Voto",
+        "alreadyVoted": "Ya has votado en esta propuesta.",
+        "voteRationale": "Justificación del Voto (opcional)",
+        "voteRationalePlaceholder": "Explica tu voto...",
+        "votingEnds": "La votación termina",
+        "votingEnded": "La votación terminó",
+        "executionAvailable": "Ejecución disponible",
+        "timelockRemaining": "Tiempo restante de bloqueo",
+        "votes": "Votos",
+        "forVotes": "A Favor",
+        "againstVotes": "En Contra",
+        "abstainVotes": "Abstención",
+        "totalWeight": "Peso Total",
+        "quorumProgress": "Progreso del Quórum",
+        "quorumReached": "Quórum Alcanzado",
+        "quorumNotReached": "Quórum No Alcanzado",
+        "approvalProgress": "Progreso de Aprobación",
+        "payload": "Detalles de la Propuesta"
+      },
+      "create": {
+        "title": "Crear Propuesta",
+        "description": "Crea una propuesta de gobernanza para que la Alianza vote.",
+        "typeLabel": "Tipo de Propuesta",
+        "titleLabel": "Título",
+        "titlePlaceholder": "Título breve y descriptivo para tu propuesta",
+        "descriptionLabel": "Descripción",
+        "descriptionPlaceholder": "Explicación detallada de tu propuesta, incluyendo justificación e impacto esperado...",
+        "submit": "Enviar Propuesta",
+        "submitting": "Enviando...",
+        "tierRequired": "Necesitas nivel Faro o superior para crear propuestas.",
+        "signInRequired": "Inicia sesión para crear una propuesta.",
+        "success": "¡Propuesta creada exitosamente!",
+        "outletAdd": {
+          "title": "Agregar Medio",
+          "outletIdLabel": "ID del Medio",
+          "outletIdPlaceholder": "Identificador único para el medio",
+          "outletNameLabel": "Nombre del Medio",
+          "outletNamePlaceholder": "Nombre oficial del medio de comunicación",
+          "treasuryLabel": "Dirección del Tesoro",
+          "treasuryPlaceholder": "Dirección para recibir financiamiento",
+          "weightLabel": "Peso Inicial",
+          "weightHelp": "Peso de asignación en puntos base (ej., 5000 = 50%)",
+          "rationaleLabel": "Justificación",
+          "rationalePlaceholder": "¿Por qué debería agregarse este medio?"
+        },
+        "outletRemove": {
+          "title": "Remover Medio",
+          "outletIdLabel": "Medio a Remover",
+          "reasonLabel": "Razón de Remoción",
+          "reasonPlaceholder": "¿Por qué debería removerse este medio?"
+        },
+        "weightChange": {
+          "title": "Cambiar Pesos",
+          "descriptionText": "Modificar pesos de asignación para medios financiados.",
+          "newWeightsLabel": "Nuevos Pesos",
+          "rationaleLabel": "Justificación",
+          "rationalePlaceholder": "¿Por qué deberían cambiarse los pesos?"
+        },
+        "parameterChange": {
+          "title": "Cambiar Parámetro",
+          "parameterLabel": "Parámetro",
+          "currentValueLabel": "Valor Actual",
+          "newValueLabel": "Nuevo Valor",
+          "rationaleLabel": "Justificación",
+          "rationalePlaceholder": "¿Por qué debería cambiarse este parámetro?"
+        },
+        "emergency": {
+          "title": "Acción de Emergencia",
+          "warning": "Las propuestas de emergencia requieren 80% de aprobación y tienen votación acelerada.",
+          "actionLabel": "Acción de Emergencia",
+          "descriptionLabel": "Descripción",
+          "descriptionPlaceholder": "Explicación detallada de la emergencia..."
+        }
+      },
+      "types": {
+        "outlet-add": "Agregar Medio",
+        "outlet-remove": "Remover Medio",
+        "weight-change": "Cambiar Pesos",
+        "parameter-change": "Cambiar Parámetros",
+        "emergency": "Acción de Emergencia"
+      },
+      "status": {
+        "voting": "Votación",
+        "approved": "Aprobada",
+        "rejected": "Rechazada",
+        "expired": "Expirada",
+        "executed": "Ejecutada"
+      },
+      "council": {
+        "title": "Consejo de la Alianza",
+        "description": "El Consejo supervisa las adiciones y remociones de medios, asegurando que se mantengan los estándares de calidad.",
+        "members": "Miembros del Consejo",
+        "responsibilities": "Responsabilidades",
+        "noMembers": "Aún no hay miembros del consejo.",
+        "responsibilitiesList": {
+          "outlets": "Revisar y aprobar solicitudes de medios",
+          "quality": "Monitorear calidad y cumplimiento de medios",
+          "emergency": "Manejar situaciones de emergencia",
+          "disputes": "Resolver disputas de gobernanza"
+        }
+      },
+      "errors": {
+        "proposalNotFound": "Propuesta no encontrada.",
+        "walletNotConnected": "Por favor conecta tu billetera para participar.",
+        "insufficientTier": "Tu nivel de contribuyente no es suficiente para esta acción.",
+        "alreadyVoted": "Ya has votado en esta propuesta.",
+        "votingEnded": "El período de votación ha terminado.",
+        "executionFailed": "Error al ejecutar la propuesta.",
+        "timelockNotExpired": "El tiempo de bloqueo aún no ha expirado."
+      }
+    }
+  },
+  "newsroom": {
+    "title": "Redacción",
+    "description": "Administra las operaciones, tesorería y equipo de tu organización.",
+    "signInRequired": "Inicia sesión para acceder a la redacción",
+    "noAccess": "No tienes acceso a esta redacción",
+    "selectOrg": "Seleccionar Organización",
+    "noOrgs": "No eres miembro de ninguna organización.",
+    "overview": {
+      "title": "Panel",
+      "treasuryBalance": "Balance del Tesoro",
+      "teamMembers": "Miembros del Equipo",
+      "pendingApprovals": "Aprobaciones Pendientes",
+      "recentActivity": "Actividad Reciente",
+      "noActivity": "No hay actividad reciente."
+    },
+    "treasury": {
+      "title": "Tesorería",
+      "balance": "Balance",
+      "available": "Disponible",
+      "escrowed": "En Custodia",
+      "transactions": "Transacciones",
+      "withdraw": "Solicitar Retiro",
+      "deposit": "Registrar Depósito",
+      "noTransactions": "Sin transacciones aún.",
+      "viewAll": "Ver Todas las Transacciones"
+    },
+    "transactions": {
+      "title": "Historial de Transacciones",
+      "filterByStatus": "Filtrar por Estado",
+      "filterByType": "Filtrar por Tipo",
+      "pending": "Pendiente",
+      "approved": "Aprobada",
+      "executed": "Ejecutada",
+      "rejected": "Rechazada",
+      "cancelled": "Cancelada",
+      "withdrawal": "Retiro",
+      "deposit": "Depósito",
+      "transfer": "Transferencia",
+      "allocation": "Asignación",
+      "approve": "Aprobar",
+      "execute": "Ejecutar",
+      "cancel": "Cancelar",
+      "approvals": "Aprobaciones",
+      "noTransactions": "No hay transacciones que coincidan con tus filtros."
+    },
+    "withdraw": {
+      "title": "Solicitar Retiro",
+      "amount": "Cantidad",
+      "recipient": "Dirección del Destinatario",
+      "category": "Categoría de Presupuesto",
+      "purpose": "Propósito",
+      "submit": "Enviar Solicitud",
+      "submitting": "Enviando...",
+      "insufficientBalance": "Balance insuficiente",
+      "exceedsLimit": "La cantidad excede el límite por transacción",
+      "success": "Solicitud de retiro enviada exitosamente"
+    },
+    "team": {
+      "title": "Equipo",
+      "members": "Miembros",
+      "invitations": "Invitaciones Pendientes",
+      "invite": "Invitar Miembro",
+      "noMembers": "Sin miembros del equipo aún.",
+      "noInvitations": "Sin invitaciones pendientes.",
+      "role": "Rol",
+      "joinedAt": "Se unió",
+      "status": "Estado",
+      "active": "Activo",
+      "suspended": "Suspendido",
+      "pending": "Pendiente",
+      "changeRole": "Cambiar Rol",
+      "remove": "Eliminar",
+      "revokeInvite": "Revocar"
+    },
+    "invite": {
+      "title": "Invitar Miembro del Equipo",
+      "credential": "Credencial DIM",
+      "credentialPlaceholder": "Ingresa credencial DIM",
+      "role": "Rol",
+      "message": "Mensaje (opcional)",
+      "messagePlaceholder": "Agrega un mensaje personal...",
+      "send": "Enviar Invitación",
+      "sending": "Enviando...",
+      "success": "Invitación enviada exitosamente"
+    },
+    "roles": {
+      "owner": "Propietario",
+      "admin": "Administrador",
+      "editor": "Editor",
+      "contributor": "Colaborador",
+      "viewer": "Visualizador"
+    },
+    "budget": {
+      "title": "Resumen de Presupuesto",
+      "period": "Período",
+      "startingBalance": "Balance Inicial",
+      "endingBalance": "Balance Final",
+      "income": "Ingresos Totales",
+      "expenses": "Gastos Totales",
+      "burnRate": "Tasa de Consumo Mensual",
+      "runway": "Pista de Rodaje",
+      "months": "meses",
+      "byCategory": "Gastos por Categoría",
+      "bySource": "Ingresos por Fuente",
+      "thisMonth": "Este Mes",
+      "thisQuarter": "Este Trimestre",
+      "thisYear": "Este Año",
+      "noData": "Sin datos de presupuesto para este período."
+    },
+    "categories": {
+      "editorial": "Editorial",
+      "technology": "Tecnología",
+      "administration": "Administración",
+      "field-operations": "Operaciones de Campo",
+      "legal": "Legal",
+      "grants-out": "Subvenciones Otorgadas",
+      "other": "Otros"
+    },
+    "sources": {
+      "campaigns": "Campañas",
+      "grants": "Subvenciones",
+      "donations": "Donaciones",
+      "other": "Otros"
+    },
+    "settings": {
+      "title": "Configuración",
+      "general": "General",
+      "generalDescription": "Información y configuración básica de la organización.",
+      "treasury": "Configuración del Tesoro",
+      "treasuryDescription": "Configuración multi-firma y límites de gasto.",
+      "governance": "Reglas de Gobernanza",
+      "governanceDescription": "Umbrales de votación y requisitos de propuestas.",
+      "name": "Nombre de la Organización",
+      "description": "Descripción",
+      "mission": "Declaración de Misión",
+      "signers": "Firmantes del Tesoro",
+      "threshold": "Umbral de Aprobación",
+      "thresholdHelp": "Número de firmas requeridas para aprobar transacciones",
+      "limits": "Límites de Gasto",
+      "perTransaction": "Límite por Transacción",
+      "daily": "Límite Diario",
+      "save": "Guardar Cambios",
+      "saving": "Guardando...",
+      "saved": "Configuración guardada exitosamente"
+    },
+    "permissions": {
+      "signInRequired": "Inicia sesión para acceder a la redacción",
+      "noAccess": "No tienes acceso a esta redacción",
+      "insufficientPermission": "Permisos insuficientes para esta acción"
+    },
+    "nav": {
+      "dashboard": "Panel",
+      "treasury": "Tesorería",
+      "team": "Equipo",
+      "budget": "Presupuesto",
+      "settings": "Configuración"
+    }
+  },
+  "featureCards": {
+    "newsroom": {
+      "title": "Redacción",
+      "description": "Explora señales y corrobora afirmaciones"
+    },
+    "alliance": {
+      "title": "Gobernanza de la Alianza",
+      "description": "Vota en propuestas y administración"
+    },
+    "join": {
+      "title": "Únete a la red",
+      "description": "Completa la incorporación y la verificación"
+    },
+    "verify": {
+      "title": "Verificar identidad",
+      "description": "Gestiona tus credenciales DIM"
+    }
+  }
+}
